@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copy comes from the web verify app (frontend/verify/public/locales/en/flow.json)
+  so a flow reads the same in a browser and in an app (native-flow.md §6). The
+  web key is noted where it differs from the resource name. Strings marked
+  NATIVE have no web counterpart: they name an OS action a browser does not have.
+-->
+<resources>
+    <string name="trustsy_loading">Loading…</string>
+    <string name="trustsy_error">Something went wrong. Please try again.</string>
+    <string name="trustsy_retry">Try again</string>
+    <!-- NATIVE -->
+    <string name="trustsy_close">Close</string>
+    <!-- NATIVE -->
+    <string name="trustsy_open_settings">Open settings</string>
+    <string name="trustsy_back">Back</string>
+
+    <!-- flow.terminal / review / checking / blocked -->
+    <string name="trustsy_terminal_approved">Verification approved</string>
+    <string name="trustsy_terminal_rejected">Verification rejected</string>
+    <string name="trustsy_terminal_completed">Verification complete</string>
+    <string name="trustsy_terminal_failed">Verification failed</string>
+    <string name="trustsy_review_heading">Submitted</string>
+    <string name="trustsy_review_body">We’re checking your details. You can close this page.</string>
+    <string name="trustsy_checking_heading">Just a moment</string>
+    <string name="trustsy_checking_body">This takes a few seconds. Keep this page open.</string>
+    <string name="trustsy_blocked_heading">Waiting on a reviewer</string>
+    <string name="trustsy_blocked_body">This step needs a member of our team to check it manually. You can close this page — we will be in touch.</string>
+
+    <!-- flow.access -->
+    <string name="trustsy_access_location_heading">Not available in your location</string>
+    <string name="trustsy_access_location_body">Your connection is in %1$s. This verification can’t be completed from there.</string>
+    <string name="trustsy_access_location_body_unknown">This verification can’t be completed from your location.</string>
+    <string name="trustsy_access_vpn_heading">Turn off your VPN</string>
+    <string name="trustsy_access_vpn_body">This verification can’t be completed through a VPN or proxy. Turn it off, then try again.</string>
+
+    <!-- flow.consent -->
+    <string name="trustsy_consent_partner_fallback">This service</string>
+    <string name="trustsy_consent_heading">%1$s works with trustsy to verify your identity</string>
+    <string name="trustsy_consent_point_photo">You\'ll scan a valid photo ID, then take a selfie to make sure it\'s yours.</string>
+    <string name="trustsy_consent_point_access">%1$s will only have access to this verification data.</string>
+    <string name="trustsy_consent_point_biometric">trustsy uses biometric technology on your images to make sure it\'s you. You can delete your data at any time.</string>
+    <string name="trustsy_consent_point_location">Your device location is recorded when you verify and when you sign, and appears on documents you sign. Verification cannot continue without it.</string>
+    <string name="trustsy_consent_locating">Checking your location…</string>
+    <string name="trustsy_consent_privacy">trustsy Privacy Policy</string>
+    <string name="trustsy_consent_partner_privacy">%1$s Privacy Policy</string>
+    <string name="trustsy_consent_partner_terms">%1$s Terms of Use</string>
+    <string name="trustsy_consent_agree">Agree and continue</string>
+    <string name="trustsy_consent_decline">Decline</string>
+    <string name="trustsy_consent_declined_title">Verification declined</string>
+    <string name="trustsy_consent_declined">You declined verification. You can close this page or go back to agree.</string>
+    <!-- NATIVE: flow.location.permission_denied names browser settings -->
+    <string name="trustsy_location_denied">Location access is off for this app. Allow it in Settings, then try again.</string>
+    <!-- NATIVE -->
+    <string name="trustsy_location_off">Location is turned off on this phone. Turn it on, then try again.</string>
+    <string name="trustsy_location_unavailable">Your device could not determine a location. Move near a window or go outside, then try again.</string>
+    <string name="trustsy_location_timeout">Finding your location took too long. Please try again.</string>
+
+    <!-- flow.details -->
+    <string name="trustsy_details_first_name">First name</string>
+    <string name="trustsy_details_last_name">Last name</string>
+    <string name="trustsy_details_date_of_birth">Date of birth</string>
+    <string name="trustsy_details_nationality">Nationality</string>
+    <string name="trustsy_details_phone">Phone number</string>
+    <string name="trustsy_details_email">Email address</string>
+    <string name="trustsy_details_placeholder_first_name">Somchai</string>
+    <string name="trustsy_details_placeholder_last_name">Jaidee</string>
+    <string name="trustsy_details_placeholder_nationality">Select nationality</string>
+    <string name="trustsy_details_placeholder_phone">081 234 5678</string>
+    <string name="trustsy_details_placeholder_email">name@example.com</string>
+    <string name="trustsy_details_placeholder_date_of_birth">Select date</string>
+    <string name="trustsy_continue">Continue</string>
+    <!-- flow.event.SUBMIT -->
+    <string name="trustsy_event_submit">Submit</string>
+
+    <!-- flow.countryPicker / phoneInput -->
+    <string name="trustsy_country_search">Search country</string>
+    <string name="trustsy_country_no_match">No country found</string>
+    <string name="trustsy_phone_country">Country: %1$s (%2$s)</string>
+    <string name="trustsy_phone_country_title">Select country</string>
+
+    <!-- flow.documentChoice -->
+    <string name="trustsy_document_choice_title">Choose your ID</string>
+    <string name="trustsy_document_choice_country">Issuing country</string>
+    <string name="trustsy_document_kind_thai_id">National ID card</string>
+    <string name="trustsy_document_kind_driving_license">Driver\'s license</string>
+    <string name="trustsy_document_kind_passport">Passport</string>
+    <string name="trustsy_document_choice_none">This flow doesn\'t accept documents from this country.</string>
+
+    <!-- flow.guide -->
+    <string name="trustsy_guide_start">Open camera</string>
+    <string name="trustsy_guide_change_document">Choose another document</string>
+    <string name="trustsy_guide_document_title">Photograph your ID card</string>
+    <string name="trustsy_guide_document_lead">You’ll take a photo of the front, then the back.</string>
+    <string name="trustsy_guide_document_tip_original">Use the original card, not a photocopy or a screen</string>
+    <string name="trustsy_guide_document_tip_surface">Lay it flat on a dark surface</string>
+    <string name="trustsy_guide_document_tip_glare">Keep all four corners in view, with no glare</string>
+    <string name="trustsy_guide_license_title">Photograph your driver\'s license</string>
+    <string name="trustsy_guide_license_lead">You’ll take a photo of the front, then the back.</string>
+    <string name="trustsy_guide_passport_title">Photograph your passport</string>
+    <string name="trustsy_guide_passport_lead">You’ll take one photo of the page with your picture.</string>
+    <string name="trustsy_guide_passport_tip_original">Use your original passport, not a photocopy or a screen</string>
+    <string name="trustsy_guide_passport_tip_surface">Lay it open and flat on a dark surface</string>
+    <string name="trustsy_guide_selfie_title">Take a selfie</string>
+    <string name="trustsy_guide_selfie_lead">We’ll compare it with the photo on your ID.</string>
+    <string name="trustsy_guide_selfie_tip_light">Find bright, even light</string>
+    <string name="trustsy_guide_selfie_tip_clear">Remove sunglasses, hats and masks</string>
+    <string name="trustsy_guide_selfie_tip_prompts">Follow the prompts on screen</string>
+
+    <!-- flow.document -->
+    <string name="trustsy_camera_denied">Camera access is required to continue.</string>
+    <string name="trustsy_camera_starting">Starting camera…</string>
+    <string name="trustsy_document_capture">Capture</string>
+    <string name="trustsy_document_retake">Retake</string>
+    <string name="trustsy_document_use_photo">Use this photo</string>
+    <string name="trustsy_submitting">Submitting…</string>
+    <string name="trustsy_document_review_title">Check your photo</string>
+    <string name="trustsy_document_front_title">Front of your ID card</string>
+    <string name="trustsy_document_front_hint">Fit the whole card in the frame, with no glare.</string>
+    <string name="trustsy_document_back_title">Back of your ID card</string>
+    <string name="trustsy_document_back_hint">Turn the card over and fit it in the frame.</string>
+    <string name="trustsy_document_license_front_title">Front of your driver\'s license</string>
+    <string name="trustsy_document_license_front_hint">Fit the whole license in the frame, with no glare.</string>
+    <string name="trustsy_document_license_back_title">Back of your driver\'s license</string>
+    <string name="trustsy_document_license_back_hint">Turn the license over and fit it in the frame.</string>
+    <string name="trustsy_document_passport_title">Passport photo page</string>
+    <string name="trustsy_document_passport_hint">Open it to the page with your photo and fit the page in the frame, with no glare.</string>
+
+    <!-- flow.phone -->
+    <string name="trustsy_phone_title">Confirm your mobile number</string>
+    <string name="trustsy_phone_intro">We\'ll text you a code to confirm this number is yours.</string>
+    <string name="trustsy_phone_number_label">Mobile number</string>
+    <string name="trustsy_phone_send">Send code</string>
+    <string name="trustsy_phone_sending">Sending…</string>
+    <string name="trustsy_phone_code_title">Enter the code</string>
+    <string name="trustsy_phone_sent_to">We sent a code to %1$s.</string>
+    <string name="trustsy_phone_ref">Reference %1$s</string>
+    <string name="trustsy_phone_code_label">Code</string>
+    <string name="trustsy_phone_confirm">Confirm</string>
+    <string name="trustsy_phone_checking">Checking…</string>
+    <string name="trustsy_phone_resend">Send a new code</string>
+    <string name="trustsy_phone_change_number">Use a different number</string>
+    <string name="trustsy_phone_error_wrong_code">That code is not right. Check it and try again.</string>
+    <string name="trustsy_phone_error_expired">That code has expired. Send a new one.</string>
+    <string name="trustsy_phone_error_locked">Too many tries. Send a new code.</string>
+    <string name="trustsy_phone_error_no_pending">That code is no longer valid. Send a new one.</string>
+    <string name="trustsy_phone_error_bad_number">Enter the number with its country code, like +66812345678.</string>
+    <string name="trustsy_phone_error_too_many">Too many requests. Wait a moment, then try again.</string>
+    <string name="trustsy_phone_error_unavailable">We cannot send a code right now. Try again shortly.</string>
+    <string name="trustsy_phone_error_already_done">This number is already confirmed.</string>
+    <string name="trustsy_phone_error_generic">Something went wrong. Try again.</string>
+
+    <!-- flow.documentChip -->
+    <string name="trustsy_chip_title">Scan your passport chip</string>
+    <string name="trustsy_chip_intro">Enter these details from your passport\'s photo page. They unlock the chip.</string>
+    <string name="trustsy_chip_document_number">Passport number</string>
+    <string name="trustsy_chip_date_of_birth">Date of birth</string>
+    <string name="trustsy_chip_date_of_expiry">Expiry date</string>
+    <string name="trustsy_chip_scan">Scan chip</string>
+    <string name="trustsy_chip_scanning">Scanning…</string>
+    <string name="trustsy_chip_continue_without">Continue without the chip</string>
+    <string name="trustsy_chip_no_nfc">This phone can\'t read passport chips.</string>
+    <string name="trustsy_chip_error_access_denied">The chip didn\'t accept these details. Check the passport number and both dates.</string>
+    <string name="trustsy_chip_error_nfc_disabled">Turn on NFC in your phone\'s settings, then try again.</string>
+    <string name="trustsy_chip_error_lost">The connection was lost. Hold your phone still on the passport and try again.</string>
+    <string name="trustsy_chip_error_generic">Something went wrong. Try again.</string>
+    <string name="trustsy_nfc_hold">Hold the back of your phone flat on the passport\'s photo page. Keep still until it\'s done.</string>
+    <string name="trustsy_nfc_reading">Reading the chip…</string>
+    <string name="trustsy_cancel">Cancel</string>
+
+    <!-- flow.liveness -->
+    <string name="trustsy_liveness_loading_models">Loading face models…</string>
+    <string name="trustsy_liveness_prompt_center">Center your face in the oval</string>
+    <string name="trustsy_liveness_prompt_neutral">Hold still and look straight ahead</string>
+    <string name="trustsy_liveness_prompt_smile">Smile</string>
+    <string name="trustsy_liveness_prompt_blink">Blink</string>
+    <string name="trustsy_liveness_prompt_turn_left">Slowly turn your head to the left</string>
+    <string name="trustsy_liveness_prompt_turn_right">Slowly turn your head to the right</string>
+    <string name="trustsy_liveness_prompt_nod">Nod your head</string>
+    <string name="trustsy_liveness_prompt_head_shake">Shake your head</string>
+    <string name="trustsy_liveness_prompt_open_mouth">Open your mouth</string>
+    <string name="trustsy_liveness_prompt_move_closer">Move closer to the camera</string>
+    <string name="trustsy_liveness_prompt_move_back">Move back from the camera</string>
+    <string name="trustsy_liveness_no_face">Position your face inside the oval</string>
+    <string name="trustsy_liveness_hold_steady">Hold steady…</string>
+    <string name="trustsy_liveness_verifying">Verifying…</string>
+    <!-- NATIVE -->
+    <string name="trustsy_liveness_one_face">Only one face in the frame</string>
+    <string name="trustsy_liveness_flash_title">Hold still — your screen will change colour</string>
+    <string name="trustsy_liveness_flash_skip">I\'m sensitive to flashing light</string>
+    <!-- flow.liveness.error.*, without "Reload": the screen offers Try again. -->
+    <string name="trustsy_liveness_error_challenge">That step timed out or didn\'t match.</string>
+    <string name="trustsy_liveness_error_start">The face check couldn\'t start.</string>
+    <string name="trustsy_liveness_error_submit">Couldn\'t send your face check.</string>
+    <!-- Dip chip: a Thai ID card in a USB contact reader (dip-chip.md). -->
+    <string name="trustsy_dipchip_title">Insert your ID card</string>
+    <string name="trustsy_dipchip_no_usb_host">This device can\'t connect a card reader.</string>
+    <string name="trustsy_dipchip_connect_reader">Connect a card reader.</string>
+    <string name="trustsy_dipchip_permission">Allow access to the card reader.</string>
+    <string name="trustsy_dipchip_allow">Allow</string>
+    <string name="trustsy_dipchip_insert">Insert the card chip-first into the reader.</string>
+    <string name="trustsy_dipchip_reading">Reading the card…</string>
+    <string name="trustsy_dipchip_remove">Remove the card, then insert it again.</string>
+    <string name="trustsy_dipchip_error_read">This card couldn\'t be read.</string>
+    <string name="trustsy_dipchip_error_unsupported">This card reader isn\'t supported.</string>
+    <string name="trustsy_dipchip_error_reader">The card reader stopped responding.</string>
+    <string name="trustsy_chat_title">Messages</string>
+    <string name="trustsy_chat_open">Messages from the team</string>
+    <string name="trustsy_chat_open_unread">Messages, %1$d new</string>
+    <string name="trustsy_chat_placeholder">Reply to the team</string>
+    <string name="trustsy_chat_send">Send</string>
+    <string name="trustsy_chat_you">You</string>
+    <string name="trustsy_chat_team">Verification team</string>
+    <string name="trustsy_chat_seen">Seen</string>
+    <string name="trustsy_chat_failed">Couldn\'t send. Try again.</string>
+    <string name="trustsy_chat_slow_down">Too many messages. Wait a minute and try again.</string>
+</resources>

@@ -1,0 +1,1150 @@
+{
+  "tis620": [
+    "\u0000",
+    "\u0001",
+    "\u0002",
+    "\u0003",
+    "\u0004",
+    "\u0005",
+    "\u0006",
+    "\u0007",
+    "\b",
+    "\t",
+    "\n",
+    "\u000b",
+    "\f",
+    "\r",
+    "\u000e",
+    "\u000f",
+    "\u0010",
+    "\u0011",
+    "\u0012",
+    "\u0013",
+    "\u0014",
+    "\u0015",
+    "\u0016",
+    "\u0017",
+    "\u0018",
+    "\u0019",
+    "\u001a",
+    "\u001b",
+    "\u001c",
+    "\u001d",
+    "\u001e",
+    "\u001f",
+    " ",
+    "!",
+    "\"",
+    "#",
+    "$",
+    "%",
+    "&",
+    "'",
+    "(",
+    ")",
+    "*",
+    "+",
+    ",",
+    "-",
+    ".",
+    "/",
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    ":",
+    ";",
+    "<",
+    "=",
+    ">",
+    "?",
+    "@",
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F",
+    "G",
+    "H",
+    "I",
+    "J",
+    "K",
+    "L",
+    "M",
+    "N",
+    "O",
+    "P",
+    "Q",
+    "R",
+    "S",
+    "T",
+    "U",
+    "V",
+    "W",
+    "X",
+    "Y",
+    "Z",
+    "[",
+    "\\",
+    "]",
+    "^",
+    "_",
+    "`",
+    "a",
+    "b",
+    "c",
+    "d",
+    "e",
+    "f",
+    "g",
+    "h",
+    "i",
+    "j",
+    "k",
+    "l",
+    "m",
+    "n",
+    "o",
+    "p",
+    "q",
+    "r",
+    "s",
+    "t",
+    "u",
+    "v",
+    "w",
+    "x",
+    "y",
+    "z",
+    "{",
+    "|",
+    "}",
+    "~",
+    "",
+    "€",
+    "",
+    "",
+    "",
+    "",
+    "…",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "‘",
+    "’",
+    "“",
+    "”",
+    "•",
+    "–",
+    "—",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    " ",
+    "ก",
+    "ข",
+    "ฃ",
+    "ค",
+    "ฅ",
+    "ฆ",
+    "ง",
+    "จ",
+    "ฉ",
+    "ช",
+    "ซ",
+    "ฌ",
+    "ญ",
+    "ฎ",
+    "ฏ",
+    "ฐ",
+    "ฑ",
+    "ฒ",
+    "ณ",
+    "ด",
+    "ต",
+    "ถ",
+    "ท",
+    "ธ",
+    "น",
+    "บ",
+    "ป",
+    "ผ",
+    "ฝ",
+    "พ",
+    "ฟ",
+    "ภ",
+    "ม",
+    "ย",
+    "ร",
+    "ฤ",
+    "ล",
+    "ฦ",
+    "ว",
+    "ศ",
+    "ษ",
+    "ส",
+    "ห",
+    "ฬ",
+    "อ",
+    "ฮ",
+    "ฯ",
+    "ะ",
+    "ั",
+    "า",
+    "ำ",
+    "ิ",
+    "ี",
+    "ึ",
+    "ื",
+    "ุ",
+    "ู",
+    "ฺ",
+    null,
+    null,
+    null,
+    null,
+    "฿",
+    "เ",
+    "แ",
+    "โ",
+    "ใ",
+    "ไ",
+    "ๅ",
+    "ๆ",
+    "็",
+    "่",
+    "้",
+    "๊",
+    "๋",
+    "์",
+    "ํ",
+    "๎",
+    "๏",
+    "๐",
+    "๑",
+    "๒",
+    "๓",
+    "๔",
+    "๕",
+    "๖",
+    "๗",
+    "๘",
+    "๙",
+    "๚",
+    "๛",
+    null,
+    null,
+    null,
+    null
+  ],
+  "dates": [
+    {
+      "raw": "25300115",
+      "iso": "1987-01-15"
+    },
+    {
+      "raw": "24430229",
+      "iso": null
+    },
+    {
+      "raw": "25430229",
+      "iso": "2000-02-29"
+    },
+    {
+      "raw": "25630229",
+      "iso": "2020-02-29"
+    },
+    {
+      "raw": "25600229",
+      "iso": null
+    },
+    {
+      "raw": "25400000",
+      "iso": null
+    },
+    {
+      "raw": "25401301",
+      "iso": null
+    },
+    {
+      "raw": "25400132",
+      "iso": null
+    },
+    {
+      "raw": "25400431",
+      "iso": null
+    },
+    {
+      "raw": "99999999",
+      "iso": null
+    },
+    {
+      "raw": "2530011",
+      "iso": null
+    },
+    {
+      "raw": "253001150",
+      "iso": null
+    },
+    {
+      "raw": "2530O115",
+      "iso": null
+    },
+    {
+      "raw": " 25300115 ",
+      "iso": "1987-01-15"
+    },
+    {
+      "raw": "",
+      "iso": null
+    }
+  ],
+  "cards": [
+    {
+      "name": "male, default GET RESPONSE",
+      "atr": "3b6800000073c84012009000",
+      "transcript": [
+        {
+          "command": "00a4040008a000000054480001",
+          "response": "9000"
+        },
+        {
+          "command": "80b0000402000d",
+          "response": "610d"
+        },
+        {
+          "command": "00c000000d",
+          "response": "313130313730303233303730359000"
+        },
+        {
+          "command": "80b00011020064",
+          "response": "6164"
+        },
+        {
+          "command": "00c0000064",
+          "response": "b9d2c223cac1aad2c22323e3a8b4d5202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020209000"
+        },
+        {
+          "command": "80b00075020064",
+          "response": "6164"
+        },
+        {
+          "command": "00c0000064",
+          "response": "4d722e23536f6d6368616923234a61696465652020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020209000"
+        },
+        {
+          "command": "80b000d9020008",
+          "response": "6108"
+        },
+        {
+          "command": "00c0000008",
+          "response": "32353330303131359000"
+        },
+        {
+          "command": "80b000e1020001",
+          "response": "6101"
+        },
+        {
+          "command": "00c0000001",
+          "response": "319000"
+        },
+        {
+          "command": "80b000f6020064",
+          "response": "6164"
+        },
+        {
+          "command": "00c0000064",
+          "response": "a1c3d8a7e0b7bec1cbd2b9a4c32020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020209000"
+        },
+        {
+          "command": "80b00167020008",
+          "response": "6108"
+        },
+        {
+          "command": "00c0000008",
+          "response": "32353635303330319000"
+        },
+        {
+          "command": "80b0016f020008",
+          "response": "6108"
+        },
+        {
+          "command": "00c0000008",
+          "response": "32353734303131349000"
+        },
+        {
+          "command": "80b01579020064",
+          "response": "6164"
+        },
+        {
+          "command": "00c0000064",
+          "response": "39392f3123cbc1d9e8b7d5e8203523b6b9b9cad8a2d8c1c7d4b723e1a2c7a7a4c5cda7e0b5c223e0a2b5a4c5cda7e0b5c223a1c3d8a7e0b7bec1cbd2b9a4c3202020202020202020202020202020202020202020202020202020202020202020202020209000"
+        },
+        {
+          "command": "80b0017b0200ff",
+          "response": "61ff"
+        },
+        {
+          "command": "00c00000ff",
+          "response": "ffd802030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f303132333435363738393a3b3c3d3e3f404142434445464748494a4b4c4d4e4f505152535455565758595a5b5c5d5e5f606162636465666768696a6b6c6d6e6f707172737475767778797a7b7c7d7e7f808182838485868788898a8b8c8d8e8f909192939495969798999a9b9c9d9e9fa0a1a2a3a4a5a6a7a8a9aaabacadaeafb0b1b2b3b4b5b6b7b8b9babbbcbdbebfc0c1c2c3c4c5c6c7c8c9cacbcccdcecfd0d1d2d3d4d5d6d7d8d9dadbdcdddedfe0e1e2e3e4e5e6e7e8e9eaebecedeeeff0f1f2f3f4f5f6f7f8f9fafbfcfdfe9000"
+        },
+        {
+          "command": "80b0027a0200ff",
+          "response": "61ff"
+        },
+        {
+          "command": "00c00000ff",
+          "response": "010003020504070609080b0a0d0c0f0e111013121514171619181b1a1d1c1f1e212023222524272629282b2a2d2c2f2e313033323534373639383b3a3d3c3f3e414043424544474649484b4a4d4c4f4e515053525554575659585b5a5d5c5f5e616063626564676669686b6a6d6c6f6e717073727574777679787b7a7d7c7f7e818083828584878689888b8a8d8c8f8e919093929594979699989b9a9d9c9f9ea1a0a3a2a5a4a7a6a9a8abaaadacafaeb1b0b3b2b5b4b7b6b9b8bbbabdbcbfbec1c0c3c2c5c4c7c6c9c8cbcacdcccfced1d0d3d2d5d4d7d6d9d8dbdadddcdfdee1e0e3e2e5e4e7e6e9e8ebeaedecefeef1f0f3f2f5f4f7f6f9f8fbfafdfcff9000"
+        },
+        {
+          "command": "80b003790200ff",
+          "response": "61ff"
+        },
+        {
+          "command": "00c00000ff",
+          "response": "02030001060704050a0b08090e0f0c0d12131011161714151a1b18191e1f1c1d22232021262724252a2b28292e2f2c2d32333031363734353a3b38393e3f3c3d42434041464744454a4b48494e4f4c4d52535051565754555a5b58595e5f5c5d62636061666764656a6b68696e6f6c6d72737071767774757a7b78797e7f7c7d82838081868784858a8b88898e8f8c8d92939091969794959a9b98999e9f9c9da2a3a0a1a6a7a4a5aaaba8a9aeafacadb2b3b0b1b6b7b4b5babbb8b9bebfbcbdc2c3c0c1c6c7c4c5cacbc8c9cecfcccdd2d3d0d1d6d7d4d5dadbd8d9dedfdcdde2e3e0e1e6e7e4e5eaebe8e9eeefecedf2f3f0f1f6f7f4f5fafbf8f9fefffc9000"
+        },
+        {
+          "command": "80b004780200ff",
+          "response": "61ff"
+        },
+        {
+          "command": "00c00000ff",
+          "response": "03020100070605040b0a09080f0e0d0c13121110171615141b1a19181f1e1d1c23222120272625242b2a29282f2e2d2c33323130373635343b3a39383f3e3d3c43424140474645444b4a49484f4e4d4c53525150575655545b5a59585f5e5d5c63626160676665646b6a69686f6e6d6c73727170777675747b7a79787f7e7d7c83828180878685848b8a89888f8e8d8c93929190979695949b9a99989f9e9d9ca3a2a1a0a7a6a5a4abaaa9a8afaeadacb3b2b1b0b7b6b5b4bbbab9b8bfbebdbcc3c2c1c0c7c6c5c4cbcac9c8cfcecdccd3d2d1d0d7d6d5d4dbdad9d8dfdedddce3e2e1e0e7e6e5e4ebeae9e8efeeedecf3f2f1f0f7f6f5f4fbfaf9f8fffefd9000"
+        },
+        {
+          "command": "80b005770200ff",
+          "response": "61ff"
+        },
+        {
+          "command": "00c00000ff",
+          "response": "04050607000102030c0d0e0f08090a0b14151617101112131c1d1e1f18191a1b24252627202122232c2d2e2f28292a2b34353637303132333c3d3e3f38393a3b44454647404142434c4d4e4f48494a4b54555657505152535c5d5e5f58595a5b64656667606162636c6d6e6f68696a6b74757677707172737c7d7e7f78797a7b84858687808182838c8d8e8f88898a8b94959697909192939c9d9e9f98999a9ba4a5a6a7a0a1a2a3acadaeafa8a9aaabb4b5b6b7b0b1b2b3bcbdbebfb8b9babbc4c5c6c7c0c1c2c3cccdcecfc8c9cacbd4d5d6d7d0d1d2d3dcdddedfd8d9dadbe4e5e6e7e0e1e2e3ecedeeefe8e9eaebf4f5f6f7f0f1f2f3fcfdfefff8f9fa9000"
+        },
+        {
+          "command": "80b006760200ff",
+          "response": "61ff"
+        },
+        {
+          "command": "00c00000ff",
+          "response": "05040706010003020d0c0f0e09080b0a15141716111013121d1c1f1e19181b1a25242726212023222d2c2f2e29282b2a35343736313033323d3c3f3e39383b3a45444746414043424d4c4f4e49484b4a55545756515053525d5c5f5e59585b5a65646766616063626d6c6f6e69686b6a75747776717073727d7c7f7e79787b7a85848786818083828d8c8f8e89888b8a95949796919093929d9c9f9e99989b9aa5a4a7a6a1a0a3a2adacafaea9a8abaab5b4b7b6b1b0b3b2bdbcbfbeb9b8bbbac5c4c7c6c1c0c3c2cdcccfcec9c8cbcad5d4d7d6d1d0d3d2dddcdfded9d8dbdae5e4e7e6e1e0e3e2edecefeee9e8ebeaf5f4f7f6f1f0f3f2fdfcfffef9f8fb9000"
+        },
+        {
+          "command": "80b007750200ff",
+          "response": "61ff"
+        },
+        {
+          "command": "00c00000ff",
+          "response": "06070405020300010e0f0c0d0a0b080916171415121310111e1f1c1d1a1b181926272425222320212e2f2c2d2a2b282936373435323330313e3f3c3d3a3b383946474445424340414e4f4c4d4a4b484956575455525350515e5f5c5d5a5b585966676465626360616e6f6c6d6a6b686976777475727370717e7f7c7d7a7b787986878485828380818e8f8c8d8a8b888996979495929390919e9f9c9d9a9b9899a6a7a4a5a2a3a0a1aeafacadaaaba8a9b6b7b4b5b2b3b0b1bebfbcbdbabbb8b9c6c7c4c5c2c3c0c1cecfcccdcacbc8c9d6d7d4d5d2d3d0d1dedfdcdddadbd8d9e6e7e4e5e2e3e0e1eeefecedeaebe8e9f6f7f4f5f2f3f0f1fefffcfdfafbf89000"
+        },
+        {
+          "command": "80b008740200ff",
+          "response": "61ff"
+        },
+        {
+          "command": "00c00000ff",
+          "response": "07060504030201000f0e0d0c0b0a090817161514131211101f1e1d1c1b1a191827262524232221202f2e2d2c2b2a292837363534333231303f3e3d3c3b3a393847464544434241404f4e4d4c4b4a494857565554535251505f5e5d5c5b5a595867666564636261606f6e6d6c6b6a696877767574737271707f7e7d7c7b7a797887868584838281808f8e8d8c8b8a898897969594939291909f9e9d9c9b9a9998a7a6a5a4a3a2a1a0afaeadacabaaa9a8b7b6b5b4b3b2b1b0bfbebdbcbbbab9b8c7c6c5c4c3c2c1c0cfcecdcccbcac9c8d7d6d5d4d3d2d1d0dfdedddcdbdad9d8e7e6e5e4e3e2e1e0efeeedecebeae9e8f7f6f5f4f3f2f1f0fffefdfcfbfaf99000"
+        },
+        {
+          "command": "80b009730200ff",
+          "response": "61ff"
+        },
+        {
+          "command": "00c00000ff",
+          "response": "08090a0b0c0d0e0f000102030405060718191a1b1c1d1e1f101112131415161728292a2b2c2d2e2f202122232425262738393a3b3c3d3e3f303132333435363748494a4b4c4d4e4f404142434445464758595a5b5c5d5e5f505152535455565768696a6b6c6d6e6f606162636465666778797a7b7c7d7e7f707172737475767788898a8b8c8d8e8f808182838485868798999a9b9c9d9e9f9091929394959697a8a9aaabacadaeafa0a1a2a3a4a5a6a7b8b9babbbcbdbebfb0b1b2b3b4b5b6b7c8c9cacbcccdcecfc0c1c2c3c4c5c6c7d8d9dadbdcdddedfd0d1d2d3d4d5d6d7e8e9eaebecedeeefe0e1e2e3e4e5e6e7f8f9fafbfcfdfefff0f1f2f3f4f5f69000"
+        },
+        {
+          "command": "80b00a720200ff",
+          "response": "61ff"
+        },
+        {
+          "command": "00c00000ff",
+          "response": "09080b0a0d0c0f0e010003020504070619181b1a1d1c1f1e111013121514171629282b2a2d2c2f2e212023222524272639383b3a3d3c3f3e313033323534373649484b4a4d4c4f4e414043424544474659585b5a5d5c5f5e515053525554575669686b6a6d6c6f6e616063626564676679787b7a7d7c7f7e717073727574777689888b8a8d8c8f8e818083828584878699989b9a9d9c9f9e9190939295949796a9a8abaaadacafaea1a0a3a2a5a4a7a6b9b8bbbabdbcbfbeb1b0b3b2b5b4b7b6c9c8cbcacdcccfcec1c0c3c2c5c4c7c6d9d8dbdadddcdfded1d0d3d2d5d4d7d6e9e8ebeaedecefeee1e0e3e2e5e4e7e6f9f8fbfafdfcfffef1f0f3f2f5f4f79000"
+        },
+        {
+          "command": "80b00b710200ff",
+          "response": "61ff"
+        },
+        {
+          "command": "00c00000ff",
+          "response": "0a0b08090e0f0c0d02030001060704051a1b18191e1f1c1d12131011161714152a2b28292e2f2c2d22232021262724253a3b38393e3f3c3d32333031363734354a4b48494e4f4c4d42434041464744455a5b58595e5f5c5d52535051565754556a6b68696e6f6c6d62636061666764657a7b78797e7f7c7d72737071767774758a8b88898e8f8c8d82838081868784859a9b98999e9f9c9d9293909196979495aaaba8a9aeafacada2a3a0a1a6a7a4a5babbb8b9bebfbcbdb2b3b0b1b6b7b4b5cacbc8c9cecfcccdc2c3c0c1c6c7c4c5dadbd8d9dedfdcddd2d3d0d1d6d7d4d5eaebe8e9eeefecede2e3e0e1e6e7e4e5fafbf8f9fefffcfdf2f3f0f1f6f7f49000"
+        },
+        {
+          "command": "80b00c700200ff",
+          "response": "61ff"
+        },
+        {
+          "command": "00c00000ff",
+          "response": "0b0a09080f0e0d0c03020100070605041b1a19181f1e1d1c13121110171615142b2a29282f2e2d2c23222120272625243b3a39383f3e3d3c33323130373635344b4a49484f4e4d4c43424140474645445b5a59585f5e5d5c53525150575655546b6a69686f6e6d6c63626160676665647b7a79787f7e7d7c73727170777675748b8a89888f8e8d8c83828180878685849b9a99989f9e9d9c9392919097969594abaaa9a8afaeadaca3a2a1a0a7a6a5a4bbbab9b8bfbebdbcb3b2b1b0b7b6b5b4cbcac9c8cfcecdccc3c2c1c0c7c6c5c4dbdad9d8dfdedddcd3d2d1d0d7d6d5d4ebeae9e8efeeedece3e2e1e0e7e6e5e4fbfaf9f8fffefdfcf3f2f1f0f7f6f59000"
+        },
+        {
+          "command": "80b00d6f0200ff",
+          "response": "61ff"
+        },
+        {
+          "command": "00c00000ff",
+          "response": "0c0d0e0f08090a0b04050607000102031c1d1e1f18191a1b14151617101112132c2d2e2f28292a2b24252627202122233c3d3e3f38393a3b34353637303132334c4d4e4f48494a4b44454647404142435c5d5e5f58595a5b54555657505152536c6d6e6f68696a6b64656667606162637c7d7e7f78797a7b74757677707172738c8d8e8f88898a8b84858687808182839c9d9e9f98999a9b9495969790919293acadaeafa8a9aaaba4a5a6a7a0a1a2a3bcbdbebfb8b9babbb4b5b6b7b0b1b2b3cccdcecfc8c9cacbc4c5c6c7c0c1c2c3dcdddedfd8d9dadbd4d5d6d7d0d1d2d3ecedeeefe8e9eaebe4e5e6e7e0e1e2e3fcfdfefff8f9fafbf4f5f6f7f0f1f29000"
+        },
+        {
+          "command": "80b00e6e0200ff",
+          "response": "61ff"
+        },
+        {
+          "command": "00c00000ff",
+          "response": "0d0c0f0e09080b0a05040706010003021d1c1f1e19181b1a15141716111013122d2c2f2e29282b2a25242726212023223d3c3f3e39383b3a35343736313033324d4c4f4e49484b4a45444746414043425d5c5f5e59585b5a55545756515053526d6c6f6e69686b6a65646766616063627d7c7f7e79787b7a75747776717073728d8c8f8e89888b8a85848786818083829d9c9f9e99989b9a9594979691909392adacafaea9a8abaaa5a4a7a6a1a0a3a2bdbcbfbeb9b8bbbab5b4b7b6b1b0b3b2cdcccfcec9c8cbcac5c4c7c6c1c0c3c2dddcdfded9d8dbdad5d4d7d6d1d0d3d2edecefeee9e8ebeae5e4e7e6e1e0e3e2fdfcfffef9f8fbfaf5f4f7f6f1f0f39000"
+        },
+        {
+          "command": "80b00f6d0200ff",
+          "response": "61ff"
+        },
+        {
+          "command": "00c00000ff",
+          "response": "0e0f0c0d0a0b080906070405020300011e1f1c1d1a1b181916171415121310112e2f2c2d2a2b282926272425222320213e3f3c3d3a3b383936373435323330314e4f4c4d4a4b484946474445424340415e5f5c5d5a5b585956575455525350516e6f6c6d6a6b686966676465626360617e7f7c7d7a7b787976777475727370718e8f8c8d8a8b888986878485828380819e9f9c9d9a9b98999697949592939091aeafacadaaaba8a9a6a7a4a5a2a3a0a1bebfbcbdbabbb8b9b6b7b4b5b2b3b0b1cecfcccdcacbc8c9c6c7c4c5c2c3c0c1dedfdcdddadbd8d9d6d7d4d5d2d3d0d1eeefecedeaebe8e9e6e7e4e5e2e3e0e1fefffcfdfafbf8f9f6f7f4f5f2f3f09000"
+        },
+        {
+          "command": "80b0106c0200ff",
+          "response": "61ff"
+        },
+        {
+          "command": "00c00000ff",
+          "response": "0f0e0d0c0b0a090807060504030201001f1e1d1c1b1a191817161514131211102f2e2d2c2b2a292827262524232221203f3e3d3c3b3a393837363534333231304f4e4d4c4b4a494847464544434241405f5e5d5c5b5a595857565554535251506f6e6d6c6b6a696867666564636261607f7e7d7c7b7a797877767574737271708f8e8d8c8b8a898887868584838281809f9e9d9c9b9a99989796959493929190afaeadacabaaa9a8a7a6a5a4a3a2a1a0bfbebdbcbbbab9b8b7b6b5b4b3b2b1b0cfcecdcccbcac9c8c7c6c5c4c3c2c1c0dfdedddcdbdad9d8d7d6d5d4d3d2d1d0efeeedecebeae9e8e7e6e5e4e3e2e1e0fffefdfcfbfaf9f8f7f6f5f4f3f2f19000"
+        },
+        {
+          "command": "80b0116b0200ff",
+          "response": "61ff"
+        },
+        {
+          "command": "00c00000ff",
+          "response": "101112131415161718191a1b1c1d1e1f000102030405060708090a0b0c0d0e0f303132333435363738393a3b3c3d3e3f202122232425262728292a2b2c2d2e2f505152535455565758595a5b5c5d5e5f404142434445464748494a4b4c4d4e4f707172737475767778797a7b7c7d7e7f606162636465666768696a6b6c6d6e6f909192939495969798999a9b9c9d9e9f808182838485868788898a8b8c8d8e8fb0b1b2b3b4b5b6b7b8b9babbbcbdbebfa0a1a2a3a4a5a6a7a8a9aaabacadaeafd0d1d2d3d4d5d6d7d8d9dadbdcdddedfc0c1c2c3c4c5c6c7c8c9cacbcccdcecff0f1f2f3f4f5f6f7f8f9fafbfcfdfeffe0e1e2e3e4e5e6e7e8e9eaebecedee9000"
+        },
+        {
+          "command": "80b0126a0200ff",
+          "response": "61ff"
+        },
+        {
+          "command": "00c00000ff",
+          "response": "111013121514171619181b1a1d1c1f1e010003020504070609080b0a0d0c0f0e313033323534373639383b3a3d3c3f3e212023222524272629282b2a2d2c2f2e515053525554575659585b5a5d5c5f5e414043424544474649484b4a4d4c4f4e717073727574777679787b7a7d7c7f7e616063626564676669686b6a6d6c6f6e919093929594979699989b9a9d9c9f9e818083828584878689888b8a8d8c8f8eb1b0b3b2b5b4b7b6b9b8bbbabdbcbfbea1a0a3a2a5a4a7a6a9a8abaaadacafaed1d0d3d2d5d4d7d6d9d8dbdadddcdfdec1c0c3c2c5c4c7c6c9c8cbcacdcccfcef1f0f3f2f5f4f7f6f9f8fbfafdfcfffee1e0e3e2e5e4e7e6e9e8ebeaedecef9000"
+        },
+        {
+          "command": "80b013690200ff",
+          "response": "61ff"
+        },
+        {
+          "command": "00c00000ff",
+          "response": "12131011161714151a1b18191e1f1c1d02030001060704050a0b08090e0f0c0d32333031363734353a3b38393e3f3c3d22232021262724252a2b28292e2f2c2d52535051565754555a5b58595e5f5c5d42434041464744454a4b48494e4f4c4d72737071767774757a7b78797e7f7c7d62636061666764656a6b68696e6f6c6d92939091969794959a9b98999e9f9c9d82838081868784858a8b88898e8f8c8db2b3b0b1b6b7b4b5babbb8b9bebfbcbda2a3a0a1a6a7a4a5aaaba8a9aeafacadd2d3d0d1d6d7d4d5dadbd8d9dedfdcddc2c3c0c1c6c7c4c5cacbc8c9cecfcccdf2f3f0f1f6f7f4f5fafbf8f9fefffcfde2e3e0e1e6e7e4e5eaebe8e9eeefec9000"
+        },
+        {
+          "command": "80b014680200ff",
+          "response": "61ff"
+        },
+        {
+          "command": "00c00000ff",
+          "response": "13121110171615141b1a19181f1e1d1c03020100070605040b0a09080f0e0d0c33323130373635343b3a39383f3e3d3c23222120272625242b2a29282f2e2d2c53525150575655545b5a59585f5e5d5c43424140474645444b4a49484f4e4d4c73727170777675747b7a79787f7e7d7c63626160676665646b6a69686f6e6d6c93929190979695949b9a99989f9e9d9c83828180878685848b8a89888f8e8d8cb3b2b1b0b7b6b5b4bbbab9b8bfbebdbca3a2a1a0a7a6a5a4abaaa9a8afaeadacd3d2d1d0d7d6d5d4dbdad9d8dfdedddcc3c2c1c0c7c6c5c4cbcac9c8cfcecdccf3f2f1f0f7f6f5f4fbfaf9f8fffefdfce3e2e1e0e7e6e5e4ebeae9e8efeeed9000"
+        }
+      ],
+      "expected": {
+        "fields": {
+          "idNumber": "1101700230705",
+          "thaiNationalId": "1101700230705",
+          "thaiName": "นายสมชาย ใจดี",
+          "englishName": "Mr.Somchai Jaidee",
+          "dateOfBirth": "1987-01-15",
+          "dateOfIssue": "2022-03-01",
+          "dateOfExpiry": "2031-01-14",
+          "gender": "M",
+          "address": "99/1 หมู่ที่ 5 ถนนสุขุมวิท แขวงคลองเตย เขตคลองเตย กรุงเทพมหานคร"
+        },
+        "photoBase64": "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"
+      }
+    },
+    {
+      "name": "female, 3B 67 ATR selects 00 C0 00 01, middle name, unreadable date",
+      "atr": "3b6700007320006c689000",
+      "transcript": [
+        {
+          "command": "00a4040008a000000054480001",
+          "response": "9000"
+        },
+        {
+          "command": "80b0000402000d",
+          "response": "610d"
+        },
+        {
+          "command": "00c000010d",
+          "response": "333130303630303132333435379000"
+        },
+        {
+          "command": "80b00011020064",
+          "response": "6164"
+        },
+        {
+          "command": "00c0000164",
+          "response": "b9d2a7cad2c723c1d2c5d523c8c3d523cad8a2e3a8202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020209000"
+        },
+        {
+          "command": "80b00075020064",
+          "response": "6164"
+        },
+        {
+          "command": "00c0000164",
+          "response": "4d697373234d616c6565235372692353756b6a6169202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020209000"
+        },
+        {
+          "command": "80b000d9020008",
+          "response": "6108"
+        },
+        {
+          "command": "00c0000108",
+          "response": "32353430303030309000"
+        },
+        {
+          "command": "80b000e1020001",
+          "response": "6101"
+        },
+        {
+          "command": "00c0000101",
+          "response": "329000"
+        },
+        {
+          "command": "80b000f6020064",
+          "response": "6164"
+        },
+        {
+          "command": "00c0000164",
+          "response": "cdd3e0c0cde0c1d7cda7e0aad5c2a7e3cbc1e82020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020209000"
+        },
+        {
+          "command": "80b00167020008",
+          "response": "6108"
+        },
+        {
+          "command": "00c0000108",
+          "response": "32353636303732309000"
+        },
+        {
+          "command": "80b0016f020008",
+          "response": "6108"
+        },
+        {
+          "command": "00c0000108",
+          "response": "32353735303731399000"
+        },
+        {
+          "command": "80b01579020064",
+          "response": "6164"
+        },
+        {
+          "command": "00c0000164",
+          "response": "313223abcdc2b9d4c1c1d2b9203923b5d3bac5cad8e0b7be23cdd3e0c0cde0c1d7cda7e0aad5c2a7e3cbc1e823a8d1a7cbc7d1b4e0aad5c2a7e3cbc1e82020202020202020202020202020202020202020202020202020202020202020202020202020209000"
+        },
+        {
+          "command": "80b0017b0200ff",
+          "response": "61ff"
+        },
+        {
+          "command": "00c00001ff",
+          "response": "ffd802030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f303132333435363738393a3b3c3d3e3f404142434445464748494a4b4c4d4e4f505152535455565758595a5b5c5d5e5f606162636465666768696a6b6c6d6e6f707172737475767778797a7b7c7d7e7f808182838485868788898a8b8c8d8e8f909192939495969798999a9b9c9d9e9fa0a1a2a3a4a5a6a7a8a9aaabacadaeafb0b1b2b3b4b5b6b7b8b9babbbcbdbebfc0c1c2c3c4c5c6c7c8c9cacbcccdcecfd0d1d2d3d4d5d6d7d8d9dadbdcdddedfe0e1e2e3e4e5e6e7e8e9eaebecedeeeff0f1f2f3f4f5f6f7f8f9fafbfcfdfe9000"
+        },
+        {
+          "command": "80b0027a0200ff",
+          "response": "61ff"
+        },
+        {
+          "command": "00c00001ff",
+          "response": "010003020504070609080b0a0d0c0f0e111013121514171619181b1a1d1c1f1e212023222524272629282b2a2d2c2f2e313033323534373639383b3a3d3c3f3e414043424544474649484b4a4d4c4f4e515053525554575659585b5a5d5c5f5e616063626564676669686b6a6d6c6f6e717073727574777679787b7a7d7c7f7e818083828584878689888b8a8d8c8f8e919093929594979699989b9a9d9c9f9ea1a0a3a2a5a4a7a6a9a8abaaadacafaeb1b0b3b2b5b4b7b6b9b8bbbabdbcbfbec1c0c3c2c5c4c7c6c9c8cbcacdcccfced1d0d3d2d5d4d7d6d9d8dbdadddcdfdee1e0e3e2e5e4e7e6e9e8ebeaedecefeef1f0f3f2f5f4f7f6f9f8fbfafdfcff9000"
+        },
+        {
+          "command": "80b003790200ff",
+          "response": "61ff"
+        },
+        {
+          "command": "00c00001ff",
+          "response": "02030001060704050a0b08090e0f0c0d12131011161714151a1b18191e1f1c1d22232021262724252a2b28292e2f2c2d32333031363734353a3b38393e3f3c3d42434041464744454a4b48494e4f4c4d52535051565754555a5b58595e5f5c5d62636061666764656a6b68696e6f6c6d72737071767774757a7b78797e7f7c7d82838081868784858a8b88898e8f8c8d92939091969794959a9b98999e9f9c9da2a3a0a1a6a7a4a5aaaba8a9aeafacadb2b3b0b1b6b7b4b5babbb8b9bebfbcbdc2c3c0c1c6c7c4c5cacbc8c9cecfcccdd2d3d0d1d6d7d4d5dadbd8d9dedfdcdde2e3e0e1e6e7e4e5eaebe8e9eeefecedf2f3f0f1f6f7f4f5fafbf8f9fefffc9000"
+        },
+        {
+          "command": "80b004780200ff",
+          "response": "61ff"
+        },
+        {
+          "command": "00c00001ff",
+          "response": "03020100070605040b0a09080f0e0d0c13121110171615141b1a19181f1e1d1c23222120272625242b2a29282f2e2d2c33323130373635343b3a39383f3e3d3c43424140474645444b4a49484f4e4d4c53525150575655545b5a59585f5e5d5c63626160676665646b6a69686f6e6d6c73727170777675747b7a79787f7e7d7c83828180878685848b8a89888f8e8d8c93929190979695949b9a99989f9e9d9ca3a2a1a0a7a6a5a4abaaa9a8afaeadacb3b2b1b0b7b6b5b4bbbab9b8bfbebdbcc3c2c1c0c7c6c5c4cbcac9c8cfcecdccd3d2d1d0d7d6d5d4dbdad9d8dfdedddce3e2e1e0e7e6e5e4ebeae9e8efeeedecf3f2f1f0f7f6f5f4fbfaf9f8fffefd9000"
+        },
+        {
+          "command": "80b005770200ff",
+          "response": "61ff"
+        },
+        {
+          "command": "00c00001ff",
+          "response": "04050607000102030c0d0e0f08090a0b14151617101112131c1d1e1f18191a1b24252627202122232c2d2e2f28292a2b34353637303132333c3d3e3f38393a3b44454647404142434c4d4e4f48494a4b54555657505152535c5d5e5f58595a5b64656667606162636c6d6e6f68696a6b74757677707172737c7d7e7f78797a7b84858687808182838c8d8e8f88898a8b94959697909192939c9d9e9f98999a9ba4a5a6a7a0a1a2a3acadaeafa8a9aaabb4b5b6b7b0b1b2b3bcbdbebfb8b9babbc4c5c6c7c0c1c2c3cccdcecfc8c9cacbd4d5d6d7d0d1d2d3dcdddedfd8d9dadbe4e5e6e7e0e1e2e3ecedeeefe8e9eaebf4f5f6f7f0f1f2f3fcfdfefff8f9fa9000"
+        },
+        {
+          "command": "80b006760200ff",
+          "response": "61ff"
+        },
+        {
+          "command": "00c00001ff",
+          "response": "05040706010003020d0c0f0e09080b0a15141716111013121d1c1f1e19181b1a25242726212023222d2c2f2e29282b2a35343736313033323d3c3f3e39383b3a45444746414043424d4c4f4e49484b4a55545756515053525d5c5f5e59585b5a65646766616063626d6c6f6e69686b6a75747776717073727d7c7f7e79787b7a85848786818083828d8c8f8e89888b8a95949796919093929d9c9f9e99989b9aa5a4a7a6a1a0a3a2adacafaea9a8abaab5b4b7b6b1b0b3b2bdbcbfbeb9b8bbbac5c4c7c6c1c0c3c2cdcccfcec9c8cbcad5d4d7d6d1d0d3d2dddcdfded9d8dbdae5e4e7e6e1e0e3e2edecefeee9e8ebeaf5f4f7f6f1f0f3f2fdfcfffef9f8fb9000"
+        },
+        {
+          "command": "80b007750200ff",
+          "response": "61ff"
+        },
+        {
+          "command": "00c00001ff",
+          "response": "06070405020300010e0f0c0d0a0b080916171415121310111e1f1c1d1a1b181926272425222320212e2f2c2d2a2b282936373435323330313e3f3c3d3a3b383946474445424340414e4f4c4d4a4b484956575455525350515e5f5c5d5a5b585966676465626360616e6f6c6d6a6b686976777475727370717e7f7c7d7a7b787986878485828380818e8f8c8d8a8b888996979495929390919e9f9c9d9a9b9899a6a7a4a5a2a3a0a1aeafacadaaaba8a9b6b7b4b5b2b3b0b1bebfbcbdbabbb8b9c6c7c4c5c2c3c0c1cecfcccdcacbc8c9d6d7d4d5d2d3d0d1dedfdcdddadbd8d9e6e7e4e5e2e3e0e1eeefecedeaebe8e9f6f7f4f5f2f3f0f1fefffcfdfafbf89000"
+        },
+        {
+          "command": "80b008740200ff",
+          "response": "61ff"
+        },
+        {
+          "command": "00c00001ff",
+          "response": "07060504030201000f0e0d0c0b0a090817161514131211101f1e1d1c1b1a191827262524232221202f2e2d2c2b2a292837363534333231303f3e3d3c3b3a393847464544434241404f4e4d4c4b4a494857565554535251505f5e5d5c5b5a595867666564636261606f6e6d6c6b6a696877767574737271707f7e7d7c7b7a797887868584838281808f8e8d8c8b8a898897969594939291909f9e9d9c9b9a9998a7a6a5a4a3a2a1a0afaeadacabaaa9a8b7b6b5b4b3b2b1b0bfbebdbcbbbab9b8c7c6c5c4c3c2c1c0cfcecdcccbcac9c8d7d6d5d4d3d2d1d0dfdedddcdbdad9d8e7e6e5e4e3e2e1e0efeeedecebeae9e8f7f6f5f4f3f2f1f0fffefdfcfbfaf99000"
+        },
+        {
+          "command": "80b009730200ff",
+          "response": "61ff"
+        },
+        {
+          "command": "00c00001ff",
+          "response": "08090a0b0c0d0e0f000102030405060718191a1b1c1d1e1f101112131415161728292a2b2c2d2e2f202122232425262738393a3b3c3d3e3f303132333435363748494a4b4c4d4e4f404142434445464758595a5b5c5d5e5f505152535455565768696a6b6c6d6e6f606162636465666778797a7b7c7d7e7f707172737475767788898a8b8c8d8e8f808182838485868798999a9b9c9d9e9f9091929394959697a8a9aaabacadaeafa0a1a2a3a4a5a6a7b8b9babbbcbdbebfb0b1b2b3b4b5b6b7c8c9cacbcccdcecfc0c1c2c3c4c5c6c7d8d9dadbdcdddedfd0d1d2d3d4d5d6d7e8e9eaebecedeeefe0e1e2e3e4e5e6e7f8f9fafbfcfdfefff0f1f2f3f4f5f69000"
+        },
+        {
+          "command": "80b00a720200ff",
+          "response": "61ff"
+        },
+        {
+          "command": "00c00001ff",
+          "response": "09080b0a0d0c0f0e010003020504070619181b1a1d1c1f1e111013121514171629282b2a2d2c2f2e212023222524272639383b3a3d3c3f3e313033323534373649484b4a4d4c4f4e414043424544474659585b5a5d5c5f5e515053525554575669686b6a6d6c6f6e616063626564676679787b7a7d7c7f7e717073727574777689888b8a8d8c8f8e818083828584878699989b9a9d9c9f9e9190939295949796a9a8abaaadacafaea1a0a3a2a5a4a7a6b9b8bbbabdbcbfbeb1b0b3b2b5b4b7b6c9c8cbcacdcccfcec1c0c3c2c5c4c7c6d9d8dbdadddcdfded1d0d3d2d5d4d7d6e9e8ebeaedecefeee1e0e3e2e5e4e7e6f9f8fbfafdfcfffef1f0f3f2f5f4f79000"
+        },
+        {
+          "command": "80b00b710200ff",
+          "response": "61ff"
+        },
+        {
+          "command": "00c00001ff",
+          "response": "0a0b08090e0f0c0d02030001060704051a1b18191e1f1c1d12131011161714152a2b28292e2f2c2d22232021262724253a3b38393e3f3c3d32333031363734354a4b48494e4f4c4d42434041464744455a5b58595e5f5c5d52535051565754556a6b68696e6f6c6d62636061666764657a7b78797e7f7c7d72737071767774758a8b88898e8f8c8d82838081868784859a9b98999e9f9c9d9293909196979495aaaba8a9aeafacada2a3a0a1a6a7a4a5babbb8b9bebfbcbdb2b3b0b1b6b7b4b5cacbc8c9cecfcccdc2c3c0c1c6c7c4c5dadbd8d9dedfdcddd2d3d0d1d6d7d4d5eaebe8e9eeefecede2e3e0e1e6e7e4e5fafbf8f9fefffcfdf2f3f0f1f6f7f49000"
+        },
+        {
+          "command": "80b00c700200ff",
+          "response": "61ff"
+        },
+        {
+          "command": "00c00001ff",
+          "response": "0b0a09080f0e0d0c03020100070605041b1a19181f1e1d1c13121110171615142b2a29282f2e2d2c23222120272625243b3a39383f3e3d3c33323130373635344b4a49484f4e4d4c43424140474645445b5a59585f5e5d5c53525150575655546b6a69686f6e6d6c63626160676665647b7a79787f7e7d7c73727170777675748b8a89888f8e8d8c83828180878685849b9a99989f9e9d9c9392919097969594abaaa9a8afaeadaca3a2a1a0a7a6a5a4bbbab9b8bfbebdbcb3b2b1b0b7b6b5b4cbcac9c8cfcecdccc3c2c1c0c7c6c5c4dbdad9d8dfdedddcd3d2d1d0d7d6d5d4ebeae9e8efeeedece3e2e1e0e7e6e5e4fbfaf9f8fffefdfcf3f2f1f0f7f6f59000"
+        },
+        {
+          "command": "80b00d6f0200ff",
+          "response": "61ff"
+        },
+        {
+          "command": "00c00001ff",
+          "response": "0c0d0e0f08090a0b04050607000102031c1d1e1f18191a1b14151617101112132c2d2e2f28292a2b24252627202122233c3d3e3f38393a3b34353637303132334c4d4e4f48494a4b44454647404142435c5d5e5f58595a5b54555657505152536c6d6e6f68696a6b64656667606162637c7d7e7f78797a7b74757677707172738c8d8e8f88898a8b84858687808182839c9d9e9f98999a9b9495969790919293acadaeafa8a9aaaba4a5a6a7a0a1a2a3bcbdbebfb8b9babbb4b5b6b7b0b1b2b3cccdcecfc8c9cacbc4c5c6c7c0c1c2c3dcdddedfd8d9dadbd4d5d6d7d0d1d2d3ecedeeefe8e9eaebe4e5e6e7e0e1e2e3fcfdfefff8f9fafbf4f5f6f7f0f1f29000"
+        },
+        {
+          "command": "80b00e6e0200ff",
+          "response": "61ff"
+        },
+        {
+          "command": "00c00001ff",
+          "response": "0d0c0f0e09080b0a05040706010003021d1c1f1e19181b1a15141716111013122d2c2f2e29282b2a25242726212023223d3c3f3e39383b3a35343736313033324d4c4f4e49484b4a45444746414043425d5c5f5e59585b5a55545756515053526d6c6f6e69686b6a65646766616063627d7c7f7e79787b7a75747776717073728d8c8f8e89888b8a85848786818083829d9c9f9e99989b9a9594979691909392adacafaea9a8abaaa5a4a7a6a1a0a3a2bdbcbfbeb9b8bbbab5b4b7b6b1b0b3b2cdcccfcec9c8cbcac5c4c7c6c1c0c3c2dddcdfded9d8dbdad5d4d7d6d1d0d3d2edecefeee9e8ebeae5e4e7e6e1e0e3e2fdfcfffef9f8fbfaf5f4f7f6f1f0f39000"
+        },
+        {
+          "command": "80b00f6d0200ff",
+          "response": "61ff"
+        },
+        {
+          "command": "00c00001ff",
+          "response": "0e0f0c0d0a0b080906070405020300011e1f1c1d1a1b181916171415121310112e2f2c2d2a2b282926272425222320213e3f3c3d3a3b383936373435323330314e4f4c4d4a4b484946474445424340415e5f5c5d5a5b585956575455525350516e6f6c6d6a6b686966676465626360617e7f7c7d7a7b787976777475727370718e8f8c8d8a8b888986878485828380819e9f9c9d9a9b98999697949592939091aeafacadaaaba8a9a6a7a4a5a2a3a0a1bebfbcbdbabbb8b9b6b7b4b5b2b3b0b1cecfcccdcacbc8c9c6c7c4c5c2c3c0c1dedfdcdddadbd8d9d6d7d4d5d2d3d0d1eeefecedeaebe8e9e6e7e4e5e2e3e0e1fefffcfdfafbf8f9f6f7f4f5f2f3f09000"
+        },
+        {
+          "command": "80b0106c0200ff",
+          "response": "61ff"
+        },
+        {
+          "command": "00c00001ff",
+          "response": "0f0e0d0c0b0a090807060504030201001f1e1d1c1b1a191817161514131211102f2e2d2c2b2a292827262524232221203f3e3d3c3b3a393837363534333231304f4e4d4c4b4a494847464544434241405f5e5d5c5b5a595857565554535251506f6e6d6c6b6a696867666564636261607f7e7d7c7b7a797877767574737271708f8e8d8c8b8a898887868584838281809f9e9d9c9b9a99989796959493929190afaeadacabaaa9a8a7a6a5a4a3a2a1a0bfbebdbcbbbab9b8b7b6b5b4b3b2b1b0cfcecdcccbcac9c8c7c6c5c4c3c2c1c0dfdedddcdbdad9d8d7d6d5d4d3d2d1d0efeeedecebeae9e8e7e6e5e4e3e2e1e0fffefdfcfbfaf9f8f7f6f5f4f3f2f19000"
+        },
+        {
+          "command": "80b0116b0200ff",
+          "response": "61ff"
+        },
+        {
+          "command": "00c00001ff",
+          "response": "101112131415161718191a1b1c1d1e1f000102030405060708090a0b0c0d0e0f303132333435363738393a3b3c3d3e3f202122232425262728292a2b2c2d2e2f505152535455565758595a5b5c5d5e5f404142434445464748494a4b4c4d4e4f707172737475767778797a7b7c7d7e7f606162636465666768696a6b6c6d6e6f909192939495969798999a9b9c9d9e9f808182838485868788898a8b8c8d8e8fb0b1b2b3b4b5b6b7b8b9babbbcbdbebfa0a1a2a3a4a5a6a7a8a9aaabacadaeafd0d1d2d3d4d5d6d7d8d9dadbdcdddedfc0c1c2c3c4c5c6c7c8c9cacbcccdcecff0f1f2f3f4f5f6f7f8f9fafbfcfdfeffe0e1e2e3e4e5e6e7e8e9eaebecedee9000"
+        },
+        {
+          "command": "80b0126a0200ff",
+          "response": "61ff"
+        },
+        {
+          "command": "00c00001ff",
+          "response": "111013121514171619181b1a1d1c1f1e010003020504070609080b0a0d0c0f0e313033323534373639383b3a3d3c3f3e212023222524272629282b2a2d2c2f2e515053525554575659585b5a5d5c5f5e414043424544474649484b4a4d4c4f4e717073727574777679787b7a7d7c7f7e616063626564676669686b6a6d6c6f6e919093929594979699989b9a9d9c9f9e818083828584878689888b8a8d8c8f8eb1b0b3b2b5b4b7b6b9b8bbbabdbcbfbea1a0a3a2a5a4a7a6a9a8abaaadacafaed1d0d3d2d5d4d7d6d9d8dbdadddcdfdec1c0c3c2c5c4c7c6c9c8cbcacdcccfcef1f0f3f2f5f4f7f6f9f8fbfafdfcfffee1e0e3e2e5e4e7e6e9e8ebeaedecef9000"
+        },
+        {
+          "command": "80b013690200ff",
+          "response": "61ff"
+        },
+        {
+          "command": "00c00001ff",
+          "response": "12131011161714151a1b18191e1f1c1d02030001060704050a0b08090e0f0c0d32333031363734353a3b38393e3f3c3d22232021262724252a2b28292e2f2c2d52535051565754555a5b58595e5f5c5d42434041464744454a4b48494e4f4c4d72737071767774757a7b78797e7f7c7d62636061666764656a6b68696e6f6c6d92939091969794959a9b98999e9f9c9d82838081868784858a8b88898e8f8c8db2b3b0b1b6b7b4b5babbb8b9bebfbcbda2a3a0a1a6a7a4a5aaaba8a9aeafacadd2d3d0d1d6d7d4d5dadbd8d9dedfdcddc2c3c0c1c6c7c4c5cacbc8c9cecfcccdf2f3f0f1f6f7f4f5fafbf8f9fefffcfde2e3e0e1e6e7e4e5eaebe8e9eeefec9000"
+        },
+        {
+          "command": "80b014680200ff",
+          "response": "61ff"
+        },
+        {
+          "command": "00c00001ff",
+          "response": "13121110171615141b1a19181f1e1d1c03020100070605040b0a09080f0e0d0c33323130373635343b3a39383f3e3d3c23222120272625242b2a29282f2e2d2c53525150575655545b5a59585f5e5d5c43424140474645444b4a49484f4e4d4c73727170777675747b7a79787f7e7d7c63626160676665646b6a69686f6e6d6c93929190979695949b9a99989f9e9d9c83828180878685848b8a89888f8e8d8cb3b2b1b0b7b6b5b4bbbab9b8bfbebdbca3a2a1a0a7a6a5a4abaaa9a8afaeadacd3d2d1d0d7d6d5d4dbdad9d8dfdedddcc3c2c1c0c7c6c5c4cbcac9c8cfcecdccf3f2f1f0f7f6f5f4fbfaf9f8fffefdfce3e2e1e0e7e6e5e4ebeae9e8efeeed9000"
+        }
+      ],
+      "expected": {
+        "fields": {
+          "idNumber": "3100600123457",
+          "thaiNationalId": "3100600123457",
+          "thaiName": "นางสาวมาลี ศรี สุขใจ",
+          "englishName": "MissMalee Sri Sukjai",
+          "dateOfIssue": "2023-07-20",
+          "dateOfExpiry": "2032-07-19",
+          "gender": "F",
+          "address": "12 ซอยนิมมาน 9 ตำบลสุเทพ อำเภอเมืองเชียงใหม่ จังหวัดเชียงใหม่"
+        },
+        "photoBase64": "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"
+      }
+    },
+    {
+      "name": "lifelong expiry (99999999), blank English name, 29 Feb in a common year",
+      "atr": "3b6800000073c84013009000",
+      "transcript": [
+        {
+          "command": "00a4040008a000000054480001",
+          "response": "9000"
+        },
+        {
+          "command": "80b0000402000d",
+          "response": "610d"
+        },
+        {
+          "command": "00c000000d",
+          "response": "313233343536373839303132319000"
+        },
+        {
+          "command": "80b00011020064",
+          "response": "6164"
+        },
+        {
+          "command": "00c0000064",
+          "response": "e0b4e7a1aad2c223c0d9c1d42323c3d1a1e4b7c220202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020209000"
+        },
+        {
+          "command": "80b00075020064",
+          "response": "6164"
+        },
+        {
+          "command": "00c0000064",
+          "response": "202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020209000"
+        },
+        {
+          "command": "80b000d9020008",
+          "response": "6108"
+        },
+        {
+          "command": "00c0000008",
+          "response": "32353630303232399000"
+        },
+        {
+          "command": "80b000e1020001",
+          "response": "6101"
+        },
+        {
+          "command": "00c0000001",
+          "response": "319000"
+        },
+        {
+          "command": "80b000f6020064",
+          "response": "6164"
+        },
+        {
+          "command": "00c0000064",
+          "response": "cad3b9d1a1b7d0e0bad5c2b9a1c5d2a72020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020209000"
+        },
+        {
+          "command": "80b00167020008",
+          "response": "6108"
+        },
+        {
+          "command": "00c0000008",
+          "response": "32353637303130319000"
+        },
+        {
+          "command": "80b0016f020008",
+          "response": "6108"
+        },
+        {
+          "command": "00c0000008",
+          "response": "39393939393939399000"
+        },
+        {
+          "command": "80b01579020064",
+          "response": "6164"
+        },
+        {
+          "command": "00c0000064",
+          "response": "3123b5d3bac5e3b9e0c1d7cda723cdd3e0c0cde0c1d7cda723a8d1a7cbc7d1b4a2cdb9e1a1e8b9202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020209000"
+        },
+        {
+          "command": "80b0017b0200ff",
+          "response": "61ff"
+        },
+        {
+          "command": "00c00000ff",
+          "response": "ffd802030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f303132333435363738393a3b3c3d3e3f404142434445464748494a4b4c4d4e4f505152535455565758595a5b5c5d5e5f606162636465666768696a6b6c6d6e6f707172737475767778797a7b7c7d7e7f808182838485868788898a8b8c8d8e8f909192939495969798999a9b9c9d9e9fa0a1a2a3a4a5a6a7a8a9aaabacadaeafb0b1b2b3b4b5b6b7b8b9babbbcbdbebfc0c1c2c3c4c5c6c7c8c9cacbcccdcecfd0d1d2d3d4d5d6d7d8d9dadbdcdddedfe0e1e2e3e4e5e6e7e8e9eaebecedeeeff0f1f2f3f4f5f6f7f8f9fafbfcfdfe9000"
+        },
+        {
+          "command": "80b0027a0200ff",
+          "response": "61ff"
+        },
+        {
+          "command": "00c00000ff",
+          "response": "010003020504070609080b0a0d0c0f0e111013121514171619181b1a1d1c1f1e212023222524272629282b2a2d2c2f2e313033323534373639383b3a3d3c3f3e414043424544474649484b4a4d4c4f4e515053525554575659585b5a5d5c5f5e616063626564676669686b6a6d6c6f6e717073727574777679787b7a7d7c7f7e818083828584878689888b8a8d8c8f8e919093929594979699989b9a9d9c9f9ea1a0a3a2a5a4a7a6a9a8abaaadacafaeb1b0b3b2b5b4b7b6b9b8bbbabdbcbfbec1c0c3c2c5c4c7c6c9c8cbcacdcccfced1d0d3d2d5d4d7d6d9d8dbdadddcdfdee1e0e3e2e5e4e7e6e9e8ebeaedecefeef1f0f3f2f5f4f7f6f9f8fbfafdfcff9000"
+        },
+        {
+          "command": "80b003790200ff",
+          "response": "61ff"
+        },
+        {
+          "command": "00c00000ff",
+          "response": "02030001060704050a0b08090e0f0c0d12131011161714151a1b18191e1f1c1d22232021262724252a2b28292e2f2c2d32333031363734353a3b38393e3f3c3d42434041464744454a4b48494e4f4c4d52535051565754555a5b58595e5f5c5d62636061666764656a6b68696e6f6c6d72737071767774757a7b78797e7f7c7d82838081868784858a8b88898e8f8c8d92939091969794959a9b98999e9f9c9da2a3a0a1a6a7a4a5aaaba8a9aeafacadb2b3b0b1b6b7b4b5babbb8b9bebfbcbdc2c3c0c1c6c7c4c5cacbc8c9cecfcccdd2d3d0d1d6d7d4d5dadbd8d9dedfdcdde2e3e0e1e6e7e4e5eaebe8e9eeefecedf2f3f0f1f6f7f4f5fafbf8f9fefffc9000"
+        },
+        {
+          "command": "80b004780200ff",
+          "response": "61ff"
+        },
+        {
+          "command": "00c00000ff",
+          "response": "03020100070605040b0a09080f0e0d0c13121110171615141b1a19181f1e1d1c23222120272625242b2a29282f2e2d2c33323130373635343b3a39383f3e3d3c43424140474645444b4a49484f4e4d4c53525150575655545b5a59585f5e5d5c63626160676665646b6a69686f6e6d6c73727170777675747b7a79787f7e7d7c83828180878685848b8a89888f8e8d8c93929190979695949b9a99989f9e9d9ca3a2a1a0a7a6a5a4abaaa9a8afaeadacb3b2b1b0b7b6b5b4bbbab9b8bfbebdbcc3c2c1c0c7c6c5c4cbcac9c8cfcecdccd3d2d1d0d7d6d5d4dbdad9d8dfdedddce3e2e1e0e7e6e5e4ebeae9e8efeeedecf3f2f1f0f7f6f5f4fbfaf9f8fffefd9000"
+        },
+        {
+          "command": "80b005770200ff",
+          "response": "61ff"
+        },
+        {
+          "command": "00c00000ff",
+          "response": "04050607000102030c0d0e0f08090a0b14151617101112131c1d1e1f18191a1b24252627202122232c2d2e2f28292a2b34353637303132333c3d3e3f38393a3b44454647404142434c4d4e4f48494a4b54555657505152535c5d5e5f58595a5b64656667606162636c6d6e6f68696a6b74757677707172737c7d7e7f78797a7b84858687808182838c8d8e8f88898a8b94959697909192939c9d9e9f98999a9ba4a5a6a7a0a1a2a3acadaeafa8a9aaabb4b5b6b7b0b1b2b3bcbdbebfb8b9babbc4c5c6c7c0c1c2c3cccdcecfc8c9cacbd4d5d6d7d0d1d2d3dcdddedfd8d9dadbe4e5e6e7e0e1e2e3ecedeeefe8e9eaebf4f5f6f7f0f1f2f3fcfdfefff8f9fa9000"
+        },
+        {
+          "command": "80b006760200ff",
+          "response": "61ff"
+        },
+        {
+          "command": "00c00000ff",
+          "response": "05040706010003020d0c0f0e09080b0a15141716111013121d1c1f1e19181b1a25242726212023222d2c2f2e29282b2a35343736313033323d3c3f3e39383b3a45444746414043424d4c4f4e49484b4a55545756515053525d5c5f5e59585b5a65646766616063626d6c6f6e69686b6a75747776717073727d7c7f7e79787b7a85848786818083828d8c8f8e89888b8a95949796919093929d9c9f9e99989b9aa5a4a7a6a1a0a3a2adacafaea9a8abaab5b4b7b6b1b0b3b2bdbcbfbeb9b8bbbac5c4c7c6c1c0c3c2cdcccfcec9c8cbcad5d4d7d6d1d0d3d2dddcdfded9d8dbdae5e4e7e6e1e0e3e2edecefeee9e8ebeaf5f4f7f6f1f0f3f2fdfcfffef9f8fb9000"
+        },
+        {
+          "command": "80b007750200ff",
+          "response": "61ff"
+        },
+        {
+          "command": "00c00000ff",
+          "response": "06070405020300010e0f0c0d0a0b080916171415121310111e1f1c1d1a1b181926272425222320212e2f2c2d2a2b282936373435323330313e3f3c3d3a3b383946474445424340414e4f4c4d4a4b484956575455525350515e5f5c5d5a5b585966676465626360616e6f6c6d6a6b686976777475727370717e7f7c7d7a7b787986878485828380818e8f8c8d8a8b888996979495929390919e9f9c9d9a9b9899a6a7a4a5a2a3a0a1aeafacadaaaba8a9b6b7b4b5b2b3b0b1bebfbcbdbabbb8b9c6c7c4c5c2c3c0c1cecfcccdcacbc8c9d6d7d4d5d2d3d0d1dedfdcdddadbd8d9e6e7e4e5e2e3e0e1eeefecedeaebe8e9f6f7f4f5f2f3f0f1fefffcfdfafbf89000"
+        },
+        {
+          "command": "80b008740200ff",
+          "response": "61ff"
+        },
+        {
+          "command": "00c00000ff",
+          "response": "07060504030201000f0e0d0c0b0a090817161514131211101f1e1d1c1b1a191827262524232221202f2e2d2c2b2a292837363534333231303f3e3d3c3b3a393847464544434241404f4e4d4c4b4a494857565554535251505f5e5d5c5b5a595867666564636261606f6e6d6c6b6a696877767574737271707f7e7d7c7b7a797887868584838281808f8e8d8c8b8a898897969594939291909f9e9d9c9b9a9998a7a6a5a4a3a2a1a0afaeadacabaaa9a8b7b6b5b4b3b2b1b0bfbebdbcbbbab9b8c7c6c5c4c3c2c1c0cfcecdcccbcac9c8d7d6d5d4d3d2d1d0dfdedddcdbdad9d8e7e6e5e4e3e2e1e0efeeedecebeae9e8f7f6f5f4f3f2f1f0fffefdfcfbfaf99000"
+        },
+        {
+          "command": "80b009730200ff",
+          "response": "61ff"
+        },
+        {
+          "command": "00c00000ff",
+          "response": "08090a0b0c0d0e0f000102030405060718191a1b1c1d1e1f101112131415161728292a2b2c2d2e2f202122232425262738393a3b3c3d3e3f303132333435363748494a4b4c4d4e4f404142434445464758595a5b5c5d5e5f505152535455565768696a6b6c6d6e6f606162636465666778797a7b7c7d7e7f707172737475767788898a8b8c8d8e8f808182838485868798999a9b9c9d9e9f9091929394959697a8a9aaabacadaeafa0a1a2a3a4a5a6a7b8b9babbbcbdbebfb0b1b2b3b4b5b6b7c8c9cacbcccdcecfc0c1c2c3c4c5c6c7d8d9dadbdcdddedfd0d1d2d3d4d5d6d7e8e9eaebecedeeefe0e1e2e3e4e5e6e7f8f9fafbfcfdfefff0f1f2f3f4f5f69000"
+        },
+        {
+          "command": "80b00a720200ff",
+          "response": "61ff"
+        },
+        {
+          "command": "00c00000ff",
+          "response": "09080b0a0d0c0f0e010003020504070619181b1a1d1c1f1e111013121514171629282b2a2d2c2f2e212023222524272639383b3a3d3c3f3e313033323534373649484b4a4d4c4f4e414043424544474659585b5a5d5c5f5e515053525554575669686b6a6d6c6f6e616063626564676679787b7a7d7c7f7e717073727574777689888b8a8d8c8f8e818083828584878699989b9a9d9c9f9e9190939295949796a9a8abaaadacafaea1a0a3a2a5a4a7a6b9b8bbbabdbcbfbeb1b0b3b2b5b4b7b6c9c8cbcacdcccfcec1c0c3c2c5c4c7c6d9d8dbdadddcdfded1d0d3d2d5d4d7d6e9e8ebeaedecefeee1e0e3e2e5e4e7e6f9f8fbfafdfcfffef1f0f3f2f5f4f79000"
+        },
+        {
+          "command": "80b00b710200ff",
+          "response": "61ff"
+        },
+        {
+          "command": "00c00000ff",
+          "response": "0a0b08090e0f0c0d02030001060704051a1b18191e1f1c1d12131011161714152a2b28292e2f2c2d22232021262724253a3b38393e3f3c3d32333031363734354a4b48494e4f4c4d42434041464744455a5b58595e5f5c5d52535051565754556a6b68696e6f6c6d62636061666764657a7b78797e7f7c7d72737071767774758a8b88898e8f8c8d82838081868784859a9b98999e9f9c9d9293909196979495aaaba8a9aeafacada2a3a0a1a6a7a4a5babbb8b9bebfbcbdb2b3b0b1b6b7b4b5cacbc8c9cecfcccdc2c3c0c1c6c7c4c5dadbd8d9dedfdcddd2d3d0d1d6d7d4d5eaebe8e9eeefecede2e3e0e1e6e7e4e5fafbf8f9fefffcfdf2f3f0f1f6f7f49000"
+        },
+        {
+          "command": "80b00c700200ff",
+          "response": "61ff"
+        },
+        {
+          "command": "00c00000ff",
+          "response": "0b0a09080f0e0d0c03020100070605041b1a19181f1e1d1c13121110171615142b2a29282f2e2d2c23222120272625243b3a39383f3e3d3c33323130373635344b4a49484f4e4d4c43424140474645445b5a59585f5e5d5c53525150575655546b6a69686f6e6d6c63626160676665647b7a79787f7e7d7c73727170777675748b8a89888f8e8d8c83828180878685849b9a99989f9e9d9c9392919097969594abaaa9a8afaeadaca3a2a1a0a7a6a5a4bbbab9b8bfbebdbcb3b2b1b0b7b6b5b4cbcac9c8cfcecdccc3c2c1c0c7c6c5c4dbdad9d8dfdedddcd3d2d1d0d7d6d5d4ebeae9e8efeeedece3e2e1e0e7e6e5e4fbfaf9f8fffefdfcf3f2f1f0f7f6f59000"
+        },
+        {
+          "command": "80b00d6f0200ff",
+          "response": "61ff"
+        },
+        {
+          "command": "00c00000ff",
+          "response": "0c0d0e0f08090a0b04050607000102031c1d1e1f18191a1b14151617101112132c2d2e2f28292a2b24252627202122233c3d3e3f38393a3b34353637303132334c4d4e4f48494a4b44454647404142435c5d5e5f58595a5b54555657505152536c6d6e6f68696a6b64656667606162637c7d7e7f78797a7b74757677707172738c8d8e8f88898a8b84858687808182839c9d9e9f98999a9b9495969790919293acadaeafa8a9aaaba4a5a6a7a0a1a2a3bcbdbebfb8b9babbb4b5b6b7b0b1b2b3cccdcecfc8c9cacbc4c5c6c7c0c1c2c3dcdddedfd8d9dadbd4d5d6d7d0d1d2d3ecedeeefe8e9eaebe4e5e6e7e0e1e2e3fcfdfefff8f9fafbf4f5f6f7f0f1f29000"
+        },
+        {
+          "command": "80b00e6e0200ff",
+          "response": "61ff"
+        },
+        {
+          "command": "00c00000ff",
+          "response": "0d0c0f0e09080b0a05040706010003021d1c1f1e19181b1a15141716111013122d2c2f2e29282b2a25242726212023223d3c3f3e39383b3a35343736313033324d4c4f4e49484b4a45444746414043425d5c5f5e59585b5a55545756515053526d6c6f6e69686b6a65646766616063627d7c7f7e79787b7a75747776717073728d8c8f8e89888b8a85848786818083829d9c9f9e99989b9a9594979691909392adacafaea9a8abaaa5a4a7a6a1a0a3a2bdbcbfbeb9b8bbbab5b4b7b6b1b0b3b2cdcccfcec9c8cbcac5c4c7c6c1c0c3c2dddcdfded9d8dbdad5d4d7d6d1d0d3d2edecefeee9e8ebeae5e4e7e6e1e0e3e2fdfcfffef9f8fbfaf5f4f7f6f1f0f39000"
+        },
+        {
+          "command": "80b00f6d0200ff",
+          "response": "61ff"
+        },
+        {
+          "command": "00c00000ff",
+          "response": "0e0f0c0d0a0b080906070405020300011e1f1c1d1a1b181916171415121310112e2f2c2d2a2b282926272425222320213e3f3c3d3a3b383936373435323330314e4f4c4d4a4b484946474445424340415e5f5c5d5a5b585956575455525350516e6f6c6d6a6b686966676465626360617e7f7c7d7a7b787976777475727370718e8f8c8d8a8b888986878485828380819e9f9c9d9a9b98999697949592939091aeafacadaaaba8a9a6a7a4a5a2a3a0a1bebfbcbdbabbb8b9b6b7b4b5b2b3b0b1cecfcccdcacbc8c9c6c7c4c5c2c3c0c1dedfdcdddadbd8d9d6d7d4d5d2d3d0d1eeefecedeaebe8e9e6e7e4e5e2e3e0e1fefffcfdfafbf8f9f6f7f4f5f2f3f09000"
+        },
+        {
+          "command": "80b0106c0200ff",
+          "response": "61ff"
+        },
+        {
+          "command": "00c00000ff",
+          "response": "0f0e0d0c0b0a090807060504030201001f1e1d1c1b1a191817161514131211102f2e2d2c2b2a292827262524232221203f3e3d3c3b3a393837363534333231304f4e4d4c4b4a494847464544434241405f5e5d5c5b5a595857565554535251506f6e6d6c6b6a696867666564636261607f7e7d7c7b7a797877767574737271708f8e8d8c8b8a898887868584838281809f9e9d9c9b9a99989796959493929190afaeadacabaaa9a8a7a6a5a4a3a2a1a0bfbebdbcbbbab9b8b7b6b5b4b3b2b1b0cfcecdcccbcac9c8c7c6c5c4c3c2c1c0dfdedddcdbdad9d8d7d6d5d4d3d2d1d0efeeedecebeae9e8e7e6e5e4e3e2e1e0fffefdfcfbfaf9f8f7f6f5f4f3f2f19000"
+        },
+        {
+          "command": "80b0116b0200ff",
+          "response": "61ff"
+        },
+        {
+          "command": "00c00000ff",
+          "response": "101112131415161718191a1b1c1d1e1f000102030405060708090a0b0c0d0e0f303132333435363738393a3b3c3d3e3f202122232425262728292a2b2c2d2e2f505152535455565758595a5b5c5d5e5f404142434445464748494a4b4c4d4e4f707172737475767778797a7b7c7d7e7f606162636465666768696a6b6c6d6e6f909192939495969798999a9b9c9d9e9f808182838485868788898a8b8c8d8e8fb0b1b2b3b4b5b6b7b8b9babbbcbdbebfa0a1a2a3a4a5a6a7a8a9aaabacadaeafd0d1d2d3d4d5d6d7d8d9dadbdcdddedfc0c1c2c3c4c5c6c7c8c9cacbcccdcecff0f1f2f3f4f5f6f7f8f9fafbfcfdfeffe0e1e2e3e4e5e6e7e8e9eaebecedee9000"
+        },
+        {
+          "command": "80b0126a0200ff",
+          "response": "61ff"
+        },
+        {
+          "command": "00c00000ff",
+          "response": "111013121514171619181b1a1d1c1f1e010003020504070609080b0a0d0c0f0e313033323534373639383b3a3d3c3f3e212023222524272629282b2a2d2c2f2e515053525554575659585b5a5d5c5f5e414043424544474649484b4a4d4c4f4e717073727574777679787b7a7d7c7f7e616063626564676669686b6a6d6c6f6e919093929594979699989b9a9d9c9f9e818083828584878689888b8a8d8c8f8eb1b0b3b2b5b4b7b6b9b8bbbabdbcbfbea1a0a3a2a5a4a7a6a9a8abaaadacafaed1d0d3d2d5d4d7d6d9d8dbdadddcdfdec1c0c3c2c5c4c7c6c9c8cbcacdcccfcef1f0f3f2f5f4f7f6f9f8fbfafdfcfffee1e0e3e2e5e4e7e6e9e8ebeaedecef9000"
+        },
+        {
+          "command": "80b013690200ff",
+          "response": "61ff"
+        },
+        {
+          "command": "00c00000ff",
+          "response": "12131011161714151a1b18191e1f1c1d02030001060704050a0b08090e0f0c0d32333031363734353a3b38393e3f3c3d22232021262724252a2b28292e2f2c2d52535051565754555a5b58595e5f5c5d42434041464744454a4b48494e4f4c4d72737071767774757a7b78797e7f7c7d62636061666764656a6b68696e6f6c6d92939091969794959a9b98999e9f9c9d82838081868784858a8b88898e8f8c8db2b3b0b1b6b7b4b5babbb8b9bebfbcbda2a3a0a1a6a7a4a5aaaba8a9aeafacadd2d3d0d1d6d7d4d5dadbd8d9dedfdcddc2c3c0c1c6c7c4c5cacbc8c9cecfcccdf2f3f0f1f6f7f4f5fafbf8f9fefffcfde2e3e0e1e6e7e4e5eaebe8e9eeefec9000"
+        },
+        {
+          "command": "80b014680200ff",
+          "response": "61ff"
+        },
+        {
+          "command": "00c00000ff",
+          "response": "13121110171615141b1a19181f1e1d1c03020100070605040b0a09080f0e0d0c33323130373635343b3a39383f3e3d3c23222120272625242b2a29282f2e2d2c53525150575655545b5a59585f5e5d5c43424140474645444b4a49484f4e4d4c73727170777675747b7a79787f7e7d7c63626160676665646b6a69686f6e6d6c93929190979695949b9a99989f9e9d9c83828180878685848b8a89888f8e8d8cb3b2b1b0b7b6b5b4bbbab9b8bfbebdbca3a2a1a0a7a6a5a4abaaa9a8afaeadacd3d2d1d0d7d6d5d4dbdad9d8dfdedddcc3c2c1c0c7c6c5c4cbcac9c8cfcecdccf3f2f1f0f7f6f5f4fbfaf9f8fffefdfce3e2e1e0e7e6e5e4ebeae9e8efeeed9000"
+        }
+      ],
+      "expected": {
+        "fields": {
+          "idNumber": "1234567890121",
+          "thaiNationalId": "1234567890121",
+          "thaiName": "เด็กชายภูมิ รักไทย",
+          "dateOfIssue": "2024-01-01",
+          "gender": "M",
+          "address": "1 ตำบลในเมือง อำเภอเมือง จังหวัดขอนแก่น"
+        },
+        "photoBase64": "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"
+      }
+    },
+    {
+      "name": "not a Thai ID card: applet SELECT refused",
+      "atr": "3b8f8001",
+      "transcript": [
+        {
+          "command": "00a4040008a000000054480001",
+          "response": "6a82"
+        }
+      ],
+      "expected": {
+        "error": "read_failed"
+      }
+    }
+  ],
+  "_comment": "GENERATED by sdk/desktop/trustsy-dipchip/tests/contract_vectors.rs — do not edit. See sdk/contract/dip-chip.md.",
+  "seal": {
+    "recipientSecretKey": "rVJZM+L1ih/Pe4hw0wH3WOz+ZGz+NwVk7EviqXM+VM8=",
+    "recipientPublicKey": "aw4eIXuEFZXy9eMtwFT4WTXAEcXxIGcgx6wKl/7n1zw=",
+    "keyId": 3,
+    "terminalId": "BRANCH-042",
+    "eventTime": "2026-10-13T10:15:00+07:00",
+    "info": "trustsy/chip-verify/hpke/v2",
+    "aad": "030000000a4252414e43482d30343200000019323032362d31302d31335431303a31353a30302b30373a3030",
+    "payload": {
+      "fields": {
+        "idNumber": "1101700230705",
+        "thaiNationalId": "1101700230705",
+        "thaiName": "นายสมชาย ใจดี",
+        "gender": "M"
+      },
+      "photoBase64": "/9j/AA=="
+    },
+    "envelope": {
+      "v": 2,
+      "key_id": 3,
+      "enc": "LDJwAFjHMiOu8qa8R9meD8UJkqVeMGKJ8D1olIqF32I=",
+      "ct": "BMzNV+vnycjVUHjM3QrBEbOebOZehkZrK4eYaWkEexx5wOF8Rng0qx0zBlojUqyc0jdGR4hWlVMFbb346tnEgWEaxLbJg6XP7e16UbZn+8jssCouZsKnOGK8Y8CXBcq9YOGMn42O/JRLnFO+ewOfGLEg+iIXjJCdbYroiJS1KlJ7jQcFOaCGzDtHCoSlD5pNoV9XQTCoeHraOxL8l7vWQqIl1WWmKAPQZNea007wWLB6"
+    }
+  },
+  "sealV3": {
+    "recipientSecretKey": "fVZzw4xo87U0zvGCGEpQPWnGDPC+MvmTAapYJNOX1D8=",
+    "recipientPublicKey": "eTqUpXXFyZS4/dGc3kFPwzq9fQxWcwuEWPwWaxq7AOOm6wQoL/G8ebWcWOpexrU3Pug2w9YDN4QGb0qlgFeh+GIvLbyVUSAuKWCnHsmzokkupRlTvodlqSrFLPxQQNWi0QIMhlc5XGp6RIRb+FxFzPN91DsxUYOpz3Gf+zbENXWj7TV/jyF28PEHMwqFDoxGs/CCD1rHiRsdBpFddxMV6fmF+emaQWFkRqnC79WEO5cEt9gmPLSgbuh6Auso4pk9geIp6yfMAWMrAEIv1uZGoRqW1EIhO6gxjYq6jQtWVqFazvEkrZuee/pZI1aTrACxLECe+gaQJDW+30SRRvUN6SMUPwi58FKXpoh2+zygR1M6zLlA22R0amQWDsNGe8DONOsBChK+q2WyfeAlq6ZNDSl722ZiKPILQREyKRwGFqkBEBVp16k4/hZK64wHrpGo2XQKtmQmu3lg3pFxsFY1e9FibcAhRyhxjJu/bqtIbrY/vpqb/uU62FRv/awPw0kyQjJQ85M9YmZq8cJYFOiFqRUABfzLtWOH7OJET6E9mIQwwXsSD/MQEOwY4wOvDyIBxIQ2Rve2rjBkEnN7NicTPKxrZqd5T8dyXKuHSUGgcRqILbdCXrY2N/lRMYJzPOgBGYpoqad1GvYYb0YUM3WRHVWUE6Nq8vG33fMQH2toLCJsljSQP8ycyqipD0ODwFGbjOE8XlXNFjPA/Je1LtDIwZavOreUtjFJAgsYGwx8GHUNBepFmsp0FWujy+YgS1WiD5E+cXSJQ4VWvKt0cgExUOZb4WVvVYYeSWt9V6TLC3OX7SzGbcuZniI231pmwOB8dKiE2UBJsYE/rVkKWEJCFydiF4scCFUBoljEkNyRoDu2iAhWqGiFV8M6Vmogt9MKnuzDDSIvd2qwzICmjpFi0khFetoyrEqqeDWTjBZkVVxAcvnDU+ZrEeNIIzdBNVs8tga2CcJ36brMXiiezdhMmUNtjEOj+8OiJZOrRmUwTUIFvINtDGiclzhkpvlkQ9eGyzkqXdzKi6MkcCGgmZNjNVpJEKBlhkXJeil5L0azGfnKqOIrb+op2aGYiFQ5lNs6aVAzPkd+aIy+z4t9KCFTwyafOicYqFlnARlrimZs06kKrIJWylO7DEh+FNwPRSlxHaIIA+xMg5M+aZqUoFk6qRdlB5MC2DWGG7ZQ3aC8IMdmMARgo1Ox3Nu99wuh17e/dghDudMOtTEJBMIJdUBT+jRVZYHLekit5/YEteSv0mC3eFsV2XZkidxBy9cDNnB5TYY6Z1NWb+uMVZctQvaR47chfPBTvznPA4CRq7GoIpSDubmWs0d6H4HImCzDqOUCbAalXsyLFox25Jdaz/hQr2t3YAKduZvOMJxL4DYg/HrCC9IXLREGJOe8q0vCQHJwtBA4+BeaC2qSV/mFDVOnyOfGatNCB6e3uSatJoaukwe+UTIb84jGkeFZK9ZOTDhMprrHfwNO/DpD8jMGc7lZYmNu3alTftu//MsORhIYmOQFvjg3ldW886ukF1OXEcu3X/2/ClsxzhYUfcxCTv1AjpAknq8MJ+hPeu/8Ui2y5Au9/779kDjkgUuR8F10lUwxeLdlJXHex+VzVAyCnJM+ew==",
+    "keyId": 3,
+    "terminalId": "BRANCH-042",
+    "eventTime": "2026-10-13T10:15:00+07:00",
+    "info": "trustsy/chip-verify/hpke/v3",
+    "aad": "030000000a4252414e43482d30343200000019323032362d31302d31335431303a31353a30302b30373a3030",
+    "payload": {
+      "fields": {
+        "idNumber": "1101700230705",
+        "thaiNationalId": "1101700230705",
+        "thaiName": "นายสมชาย ใจดี",
+        "gender": "M"
+      },
+      "photoBase64": "/9j/AA=="
+    },
+    "envelope": {
+      "v": 3,
+      "key_id": 3,
+      "enc": "V0XdkEU8wNrTzI0VUOBwq5scEl+ijv1M9oZ9HpvmqjKGEy79FXBmFma407AdTVAhApLpFiA25BxQvCGY4jqPH0RVWIKMcBTBA5pe3aX5fShY9lVUtTTFwqL03s37pQcCvUVq31pKmwj3koZqTYfbqR+s0S1upbo/GoBcXCADY14c7RNXqculVGcsmQT8LRsMSAF0O3PGxHucfsxjr6prTMEWrdpJ9QBGhTlmcmyrqEWqTh9lJwckLwpnrSPnGoJbUY9iamiSqHIn5al2HdZEYpbc29zo9IaJ0WFmQVms7uEwqwdwhUhaPt8EdJW0CDAw2fdfokUJvcPTkJ+KMODW5pMy2U+j+fYolMuwZ65E0wz74deyVjtY7rXluKkyf60hgt1NjeeL3ZhC4krhrYY8ZptpbjPXgh1hh90gaqnlFvjbyWsStHl4JYkl4pKKQ32qnJfSjJyNhnaeb+d40oZFKMO/s89ckEwoaGjBF+U38zEq6wi0yAaarDB5rBBg9EM14COHE4zLUKCoSVL6NU5kw8gKl2HFLHBNVzN2vBoN1n7Tqo4RpnWydJeghd9EdUWrkQ8DAOE4wgM4Aka4jfmLFTNLZFbul7/2rTQApZjmzWoDWdXSbS6Kw64INRYa4sQ472XkXbqj/iBpHldvutEbG1ZLlOCX3IDqFBlFLnLB/D50xLmNeIAAyB+HWmJoD/GislvQqU1CSfwsvj4NfOYTJkGb/lBvnRGaj46VrdUeUUyqg0s6OyVBClFFC6Blziy08h6k+IcS98eE2iZ+XcnBi8iKgpwffr2KlHrs1HcsVr4v84UfUQxk4aGH4WOOj+Cf2JROYAeHyp9nXNY9L7cijTt6JUfEeuz3Z50QepRBR18HIo41u0eWJ4GnYiLl/8TS6u7AffMTRKgEy6p2OglWVD4us30zYY9tB1JN5AYO+jDQq6O+OoKsUkYagxEy6RNNWLlBeh1nnb8L4JUdXRIbdHc0D8DDMBTb7umY22DNUC6YPU11hHDJLUFOUJmvyltR6lPqYbmI65gRhj5/ibHzR+hz0P8beG/GSA/7gi1foUA2VjO5uu8ZZ0k6E1EdogIcRyzP7KHOESJ91hWy55Fbi8Y6elzxBVcu2ULqYXpqNMRyTtU9PTBK/GJX+dg4mtc+c1ge74NZ2hd6KnD+q2KhC3XMnMf0R2aU2LoA4JQT56N8fanxxfRmViujQKzgSsN1hBnmr1bc3LcGwJ4Gcd1g1TmJhVVke0OYkbOe7pkCtfTmNswUiEELrlo/l3ehIS8H6d9D+7NfSd80sW4wOEKUe61kuoD5pzrutUx3+E8LEnJODdtp1k0RSJh6VWcENMpGs6smoQwBlLFDgcAEyzWKbEDaHkpjhsSfxNkBrnxKK5P0EoVckdZiryEwB/3F1WLcV3RK5bJs8AYogQrw1jxK1wPditbeRm6MAeQNNwQom6Ys2ZoRySgc32vV7PTYdAJMuDBd3Vmy2hoxPnru8eSRaA==",
+      "ct": "MlN0Xmx6q9cHg7nDWzwRs8voAlRKBBOTwqlZzf9VrzNyMlHgJ6meIN9TBU4RjAsu9cel6t1wYPdXIi5HtrEA8RT2kXYPmRfzcy1nHIqXBLDzf/LrLYnhIzhf09Oa1HegF7BbuBcQWOPxVZ6/kE3/iuOFv/PyrgEGmhD6Oi6NU6cR+7yZaxODmMYHwVslINieJUIH9vyQPwhoFQ0r5E1AvYNlgDSlKotOkbSuWzUprIMy"
+    }
+  }
+}

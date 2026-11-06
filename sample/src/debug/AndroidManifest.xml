@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- DEBUG ONLY: lets the sample reach a dev server over http (10.0.2.2). The
+     sealed transport still encrypts every call; release builds stay https. -->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <application android:usesCleartextTraffic="true" />
+</manifest>

@@ -1,0 +1,1986 @@
+{
+  "version": 1,
+  "vectors": [
+    {
+      "name": "done wins",
+      "snapshot": {
+        "state": "x",
+        "status": "active",
+        "tags": [
+          "collection_flow"
+        ],
+        "available_events": [
+          "CONSENT_GIVEN"
+        ],
+        "done": true
+      },
+      "step": {
+        "kind": "terminal",
+        "actions": [],
+        "outcome": "completed"
+      },
+      "screen": {
+        "kind": "terminal",
+        "outcome": "completed"
+      }
+    },
+    {
+      "name": "approved tag",
+      "snapshot": {
+        "state": "approved",
+        "status": "active",
+        "tags": [
+          "approved"
+        ],
+        "available_events": [],
+        "done": false
+      },
+      "step": {
+        "kind": "terminal",
+        "actions": [],
+        "outcome": "approved"
+      },
+      "screen": {
+        "kind": "terminal",
+        "outcome": "approved"
+      }
+    },
+    {
+      "name": "rejected tag",
+      "snapshot": {
+        "state": "rejected",
+        "status": "active",
+        "tags": [
+          "rejected"
+        ],
+        "available_events": [],
+        "done": false
+      },
+      "step": {
+        "kind": "terminal",
+        "actions": [],
+        "outcome": "rejected"
+      },
+      "screen": {
+        "kind": "terminal",
+        "outcome": "rejected"
+      }
+    },
+    {
+      "name": "failed status",
+      "snapshot": {
+        "state": "x",
+        "status": "failed",
+        "tags": [],
+        "available_events": [],
+        "done": false
+      },
+      "step": {
+        "kind": "terminal",
+        "actions": [],
+        "outcome": "failed"
+      },
+      "screen": {
+        "kind": "terminal",
+        "outcome": "failed"
+      }
+    },
+    {
+      "name": "completed status",
+      "snapshot": {
+        "state": "x",
+        "status": "completed",
+        "tags": [],
+        "available_events": [],
+        "done": false
+      },
+      "step": {
+        "kind": "terminal",
+        "actions": [],
+        "outcome": "completed"
+      },
+      "screen": {
+        "kind": "terminal",
+        "outcome": "completed"
+      }
+    },
+    {
+      "name": "blocked before manual review",
+      "snapshot": {
+        "state": "x",
+        "status": "active",
+        "tags": [
+          "blocked_operator",
+          "manual_review"
+        ],
+        "available_events": [
+          "approve"
+        ],
+        "done": false
+      },
+      "step": {
+        "kind": "blocked",
+        "actions": []
+      },
+      "screen": {
+        "kind": "blocked"
+      }
+    },
+    {
+      "name": "manual review hides operator events",
+      "snapshot": {
+        "state": "x",
+        "status": "active",
+        "tags": [
+          "manual_review"
+        ],
+        "available_events": [
+          "APPROVE",
+          "REJECT"
+        ],
+        "done": false
+      },
+      "step": {
+        "kind": "review",
+        "actions": []
+      },
+      "screen": {
+        "kind": "review"
+      }
+    },
+    {
+      "name": "automated check",
+      "snapshot": {
+        "state": "x",
+        "status": "active",
+        "tags": [
+          "pending_process"
+        ],
+        "available_events": [],
+        "done": false
+      },
+      "step": {
+        "kind": "review",
+        "actions": []
+      },
+      "screen": {
+        "kind": "checking"
+      }
+    },
+    {
+      "name": "operator-only events are a wait",
+      "snapshot": {
+        "state": "x",
+        "status": "active",
+        "tags": [
+          "collection_flow"
+        ],
+        "available_events": [
+          "REVIEW_CONFIRMED"
+        ],
+        "done": false
+      },
+      "step": {
+        "kind": "review",
+        "actions": []
+      },
+      "screen": {
+        "kind": "review"
+      }
+    },
+    {
+      "name": "consent before capture",
+      "snapshot": {
+        "state": "x",
+        "status": "active",
+        "tags": [
+          "collection_flow"
+        ],
+        "available_events": [
+          "ID_FRONT_CAPTURED",
+          "CONSENT_GIVEN"
+        ],
+        "done": false
+      },
+      "step": {
+        "kind": "collect",
+        "actions": [
+          "ID_FRONT_CAPTURED",
+          "CONSENT_GIVEN"
+        ]
+      },
+      "screen": {
+        "kind": "consent"
+      }
+    },
+    {
+      "name": "document choice keeps display order",
+      "snapshot": {
+        "state": "x",
+        "status": "active",
+        "tags": [
+          "collection_flow"
+        ],
+        "available_events": [
+          "PASSPORT_CAPTURED",
+          "DRIVING_LICENSE_FRONT_CAPTURED",
+          "ID_FRONT_CAPTURED"
+        ],
+        "done": false
+      },
+      "step": {
+        "kind": "collect",
+        "actions": [
+          "PASSPORT_CAPTURED",
+          "DRIVING_LICENSE_FRONT_CAPTURED",
+          "ID_FRONT_CAPTURED"
+        ]
+      },
+      "screen": {
+        "kind": "document",
+        "offered": [
+          "thai_id",
+          "driving_license",
+          "passport"
+        ]
+      }
+    },
+    {
+      "name": "one document",
+      "snapshot": {
+        "state": "x",
+        "status": "active",
+        "tags": [
+          "collection_flow"
+        ],
+        "available_events": [
+          "PASSPORT_CAPTURED"
+        ],
+        "done": false
+      },
+      "step": {
+        "kind": "collect",
+        "actions": [
+          "PASSPORT_CAPTURED"
+        ]
+      },
+      "screen": {
+        "kind": "document",
+        "offered": [
+          "passport"
+        ]
+      }
+    },
+    {
+      "name": "id back",
+      "snapshot": {
+        "state": "x",
+        "status": "active",
+        "tags": [
+          "collection_flow"
+        ],
+        "available_events": [
+          "ID_BACK_CAPTURED"
+        ],
+        "done": false
+      },
+      "step": {
+        "kind": "collect",
+        "actions": [
+          "ID_BACK_CAPTURED"
+        ]
+      },
+      "screen": {
+        "kind": "documentBack",
+        "document": "thai_id"
+      }
+    },
+    {
+      "name": "licence back",
+      "snapshot": {
+        "state": "x",
+        "status": "active",
+        "tags": [
+          "collection_flow"
+        ],
+        "available_events": [
+          "DRIVING_LICENSE_BACK_CAPTURED"
+        ],
+        "done": false
+      },
+      "step": {
+        "kind": "collect",
+        "actions": [
+          "DRIVING_LICENSE_BACK_CAPTURED"
+        ]
+      },
+      "screen": {
+        "kind": "documentBack",
+        "document": "driving_license"
+      }
+    },
+    {
+      "name": "front before back",
+      "snapshot": {
+        "state": "x",
+        "status": "active",
+        "tags": [
+          "collection_flow"
+        ],
+        "available_events": [
+          "ID_BACK_CAPTURED",
+          "ID_FRONT_CAPTURED"
+        ],
+        "done": false
+      },
+      "step": {
+        "kind": "collect",
+        "actions": [
+          "ID_BACK_CAPTURED",
+          "ID_FRONT_CAPTURED"
+        ]
+      },
+      "screen": {
+        "kind": "document",
+        "offered": [
+          "thai_id"
+        ]
+      }
+    },
+    {
+      "name": "company",
+      "snapshot": {
+        "state": "x",
+        "status": "active",
+        "tags": [
+          "collection_flow"
+        ],
+        "available_events": [
+          "COMPANY_SUBMITTED"
+        ],
+        "done": false
+      },
+      "step": {
+        "kind": "collect",
+        "actions": [
+          "COMPANY_SUBMITTED"
+        ]
+      },
+      "screen": {
+        "kind": "company"
+      }
+    },
+    {
+      "name": "key people",
+      "snapshot": {
+        "state": "x",
+        "status": "active",
+        "tags": [
+          "collection_flow"
+        ],
+        "available_events": [
+          "KEY_PEOPLE_SUBMITTED"
+        ],
+        "done": false
+      },
+      "step": {
+        "kind": "collect",
+        "actions": [
+          "KEY_PEOPLE_SUBMITTED"
+        ]
+      },
+      "screen": {
+        "kind": "keyPeople"
+      }
+    },
+    {
+      "name": "awaiting key people",
+      "snapshot": {
+        "state": "x",
+        "status": "active",
+        "tags": [
+          "collection_flow"
+        ],
+        "available_events": [
+          "KEY_PEOPLE_DONE"
+        ],
+        "done": false
+      },
+      "step": {
+        "kind": "collect",
+        "actions": [
+          "KEY_PEOPLE_DONE"
+        ]
+      },
+      "screen": {
+        "kind": "awaitingUsers"
+      }
+    },
+    {
+      "name": "document groups",
+      "snapshot": {
+        "state": "x",
+        "status": "active",
+        "tags": [
+          "collection_flow"
+        ],
+        "available_events": [
+          "DOCUMENTS_SUBMITTED"
+        ],
+        "done": false
+      },
+      "step": {
+        "kind": "collect",
+        "actions": [
+          "DOCUMENTS_SUBMITTED"
+        ]
+      },
+      "screen": {
+        "kind": "documentGroups"
+      }
+    },
+    {
+      "name": "business document",
+      "snapshot": {
+        "state": "x",
+        "status": "active",
+        "tags": [
+          "collection_flow"
+        ],
+        "available_events": [
+          "BUSINESS_DOC_CAPTURED"
+        ],
+        "done": false
+      },
+      "step": {
+        "kind": "collect",
+        "actions": [
+          "BUSINESS_DOC_CAPTURED"
+        ]
+      },
+      "screen": {
+        "kind": "businessDocument"
+      }
+    },
+    {
+      "name": "phone",
+      "snapshot": {
+        "state": "x",
+        "status": "active",
+        "tags": [
+          "collection_flow"
+        ],
+        "available_events": [
+          "PHONE_VERIFIED"
+        ],
+        "done": false
+      },
+      "step": {
+        "kind": "collect",
+        "actions": [
+          "PHONE_VERIFIED"
+        ]
+      },
+      "screen": {
+        "kind": "phone"
+      }
+    },
+    {
+      "name": "document chip",
+      "snapshot": {
+        "state": "x",
+        "status": "active",
+        "tags": [
+          "collection_flow"
+        ],
+        "available_events": [
+          "DOCUMENT_CHIP_READ",
+          "DOCUMENT_CHIP_UNAVAILABLE"
+        ],
+        "done": false
+      },
+      "step": {
+        "kind": "collect",
+        "actions": [
+          "DOCUMENT_CHIP_READ",
+          "DOCUMENT_CHIP_UNAVAILABLE"
+        ]
+      },
+      "screen": {
+        "kind": "documentChip"
+      }
+    },
+    {
+      "name": "dip chip",
+      "snapshot": {
+        "state": "x",
+        "status": "active",
+        "tags": [
+          "collection_flow"
+        ],
+        "available_events": [
+          "CHIP_READ"
+        ],
+        "done": false
+      },
+      "step": {
+        "kind": "collect",
+        "actions": [
+          "CHIP_READ"
+        ]
+      },
+      "screen": {
+        "kind": "dipChip"
+      }
+    },
+    {
+      "name": "document chip before dip chip",
+      "snapshot": {
+        "state": "x",
+        "status": "active",
+        "tags": [
+          "collection_flow"
+        ],
+        "available_events": [
+          "CHIP_READ",
+          "DOCUMENT_CHIP_READ"
+        ],
+        "done": false
+      },
+      "step": {
+        "kind": "collect",
+        "actions": [
+          "CHIP_READ",
+          "DOCUMENT_CHIP_READ"
+        ]
+      },
+      "screen": {
+        "kind": "documentChip"
+      }
+    },
+    {
+      "name": "phone before dip chip",
+      "snapshot": {
+        "state": "x",
+        "status": "active",
+        "tags": [
+          "collection_flow"
+        ],
+        "available_events": [
+          "CHIP_READ",
+          "PHONE_VERIFIED"
+        ],
+        "done": false
+      },
+      "step": {
+        "kind": "collect",
+        "actions": [
+          "CHIP_READ",
+          "PHONE_VERIFIED"
+        ]
+      },
+      "screen": {
+        "kind": "phone"
+      }
+    },
+    {
+      "name": "dip chip before liveness",
+      "snapshot": {
+        "state": "x",
+        "status": "active",
+        "tags": [
+          "collection_flow"
+        ],
+        "available_events": [
+          "LIVENESS_DONE",
+          "CHIP_READ"
+        ],
+        "done": false
+      },
+      "step": {
+        "kind": "collect",
+        "actions": [
+          "LIVENESS_DONE",
+          "CHIP_READ"
+        ]
+      },
+      "screen": {
+        "kind": "dipChip"
+      }
+    },
+    {
+      "name": "chip unavailable alone is a button",
+      "snapshot": {
+        "state": "x",
+        "status": "active",
+        "tags": [
+          "collection_flow"
+        ],
+        "available_events": [
+          "DOCUMENT_CHIP_UNAVAILABLE"
+        ],
+        "done": false
+      },
+      "step": {
+        "kind": "collect",
+        "actions": [
+          "DOCUMENT_CHIP_UNAVAILABLE"
+        ]
+      },
+      "screen": {
+        "kind": "actions",
+        "actions": [
+          "DOCUMENT_CHIP_UNAVAILABLE"
+        ]
+      }
+    },
+    {
+      "name": "signature",
+      "snapshot": {
+        "state": "x",
+        "status": "active",
+        "tags": [
+          "collection_flow"
+        ],
+        "available_events": [
+          "SIGNATURE_SUBMITTED",
+          "SIGNATURE_DECLINED"
+        ],
+        "done": false
+      },
+      "step": {
+        "kind": "collect",
+        "actions": [
+          "SIGNATURE_SUBMITTED",
+          "SIGNATURE_DECLINED"
+        ]
+      },
+      "screen": {
+        "kind": "signature"
+      }
+    },
+    {
+      "name": "phone before signature",
+      "snapshot": {
+        "state": "x",
+        "status": "active",
+        "tags": [
+          "collection_flow"
+        ],
+        "available_events": [
+          "SIGNATURE_SUBMITTED",
+          "PHONE_VERIFIED"
+        ],
+        "done": false
+      },
+      "step": {
+        "kind": "collect",
+        "actions": [
+          "SIGNATURE_SUBMITTED",
+          "PHONE_VERIFIED"
+        ]
+      },
+      "screen": {
+        "kind": "phone"
+      }
+    },
+    {
+      "name": "liveness",
+      "snapshot": {
+        "state": "x",
+        "status": "active",
+        "tags": [
+          "collection_flow"
+        ],
+        "available_events": [
+          "LIVENESS_DONE"
+        ],
+        "done": false
+      },
+      "step": {
+        "kind": "collect",
+        "actions": [
+          "LIVENESS_DONE"
+        ]
+      },
+      "screen": {
+        "kind": "liveness"
+      }
+    },
+    {
+      "name": "details",
+      "snapshot": {
+        "state": "x",
+        "status": "active",
+        "tags": [
+          "collection_flow"
+        ],
+        "available_events": [
+          "DETAILS_SUBMITTED"
+        ],
+        "done": false
+      },
+      "step": {
+        "kind": "collect",
+        "actions": [
+          "DETAILS_SUBMITTED"
+        ]
+      },
+      "screen": {
+        "kind": "details"
+      }
+    },
+    {
+      "name": "phone before liveness",
+      "snapshot": {
+        "state": "x",
+        "status": "active",
+        "tags": [
+          "collection_flow"
+        ],
+        "available_events": [
+          "LIVENESS_DONE",
+          "PHONE_VERIFIED"
+        ],
+        "done": false
+      },
+      "step": {
+        "kind": "collect",
+        "actions": [
+          "LIVENESS_DONE",
+          "PHONE_VERIFIED"
+        ]
+      },
+      "screen": {
+        "kind": "phone"
+      }
+    },
+    {
+      "name": "phone before chip",
+      "snapshot": {
+        "state": "x",
+        "status": "active",
+        "tags": [
+          "collection_flow"
+        ],
+        "available_events": [
+          "DOCUMENT_CHIP_READ",
+          "PHONE_VERIFIED"
+        ],
+        "done": false
+      },
+      "step": {
+        "kind": "collect",
+        "actions": [
+          "DOCUMENT_CHIP_READ",
+          "PHONE_VERIFIED"
+        ]
+      },
+      "screen": {
+        "kind": "phone"
+      }
+    },
+    {
+      "name": "chip before liveness",
+      "snapshot": {
+        "state": "x",
+        "status": "active",
+        "tags": [
+          "collection_flow"
+        ],
+        "available_events": [
+          "LIVENESS_DONE",
+          "DOCUMENT_CHIP_READ"
+        ],
+        "done": false
+      },
+      "step": {
+        "kind": "collect",
+        "actions": [
+          "LIVENESS_DONE",
+          "DOCUMENT_CHIP_READ"
+        ]
+      },
+      "screen": {
+        "kind": "documentChip"
+      }
+    },
+    {
+      "name": "company before business document",
+      "snapshot": {
+        "state": "x",
+        "status": "active",
+        "tags": [
+          "collection_flow"
+        ],
+        "available_events": [
+          "BUSINESS_DOC_CAPTURED",
+          "COMPANY_SUBMITTED"
+        ],
+        "done": false
+      },
+      "step": {
+        "kind": "collect",
+        "actions": [
+          "BUSINESS_DOC_CAPTURED",
+          "COMPANY_SUBMITTED"
+        ]
+      },
+      "screen": {
+        "kind": "company"
+      }
+    },
+    {
+      "name": "liveness before details",
+      "snapshot": {
+        "state": "x",
+        "status": "active",
+        "tags": [
+          "collection_flow"
+        ],
+        "available_events": [
+          "DETAILS_SUBMITTED",
+          "LIVENESS_DONE"
+        ],
+        "done": false
+      },
+      "step": {
+        "kind": "collect",
+        "actions": [
+          "DETAILS_SUBMITTED",
+          "LIVENESS_DONE"
+        ]
+      },
+      "screen": {
+        "kind": "liveness"
+      }
+    },
+    {
+      "name": "plain actions drop operator events",
+      "snapshot": {
+        "state": "x",
+        "status": "active",
+        "tags": [
+          "collection_flow"
+        ],
+        "available_events": [
+          "SUBMIT",
+          "APPROVE"
+        ],
+        "done": false
+      },
+      "step": {
+        "kind": "collect",
+        "actions": [
+          "SUBMIT"
+        ]
+      },
+      "screen": {
+        "kind": "actions",
+        "actions": [
+          "SUBMIT"
+        ]
+      }
+    },
+    {
+      "name": "no state",
+      "snapshot": {
+        "state": null,
+        "status": "active",
+        "tags": [
+          "collection_flow"
+        ],
+        "available_events": [
+          "SUBMIT"
+        ],
+        "done": false
+      },
+      "step": {
+        "kind": "collect",
+        "actions": [
+          "SUBMIT"
+        ]
+      },
+      "screen": {
+        "kind": "actions",
+        "actions": [
+          "SUBMIT"
+        ]
+      }
+    },
+    {
+      "name": "etda_th_ial1_browser_v1.json: data_collection.awaiting_consent",
+      "snapshot": {
+        "available_events": [
+          "CONSENT_GIVEN"
+        ],
+        "done": false,
+        "state": "data_collection.awaiting_consent",
+        "status": "active",
+        "tags": [
+          "collection_flow"
+        ]
+      },
+      "step": {
+        "kind": "collect",
+        "actions": [
+          "CONSENT_GIVEN"
+        ]
+      },
+      "screen": {
+        "kind": "consent"
+      }
+    },
+    {
+      "name": "etda_th_ial1_browser_v1.json: manual_review",
+      "snapshot": {
+        "available_events": [],
+        "done": false,
+        "state": "manual_review",
+        "status": "active",
+        "tags": [
+          "manual_review"
+        ]
+      },
+      "step": {
+        "kind": "review",
+        "actions": []
+      },
+      "screen": {
+        "kind": "review"
+      }
+    },
+    {
+      "name": "etda_th_ial1_browser_v1.json: approved",
+      "snapshot": {
+        "available_events": [],
+        "done": true,
+        "state": "approved",
+        "status": "completed",
+        "tags": [
+          "approved"
+        ]
+      },
+      "step": {
+        "kind": "terminal",
+        "actions": [],
+        "outcome": "approved"
+      },
+      "screen": {
+        "kind": "terminal",
+        "outcome": "approved"
+      }
+    },
+    {
+      "name": "etda_th_ial1_browser_v1.json: rejected",
+      "snapshot": {
+        "available_events": [],
+        "done": true,
+        "state": "rejected",
+        "status": "completed",
+        "tags": [
+          "rejected"
+        ]
+      },
+      "step": {
+        "kind": "terminal",
+        "actions": [],
+        "outcome": "rejected"
+      },
+      "screen": {
+        "kind": "terminal",
+        "outcome": "rejected"
+      }
+    },
+    {
+      "name": "etda_th_ial2_1_kiosk_v1.json: data_collection.awaiting_liveness",
+      "snapshot": {
+        "available_events": [
+          "LIVENESS_DONE"
+        ],
+        "done": false,
+        "state": "data_collection.awaiting_liveness",
+        "status": "active",
+        "tags": [
+          "collection_flow"
+        ]
+      },
+      "step": {
+        "kind": "collect",
+        "actions": [
+          "LIVENESS_DONE"
+        ]
+      },
+      "screen": {
+        "kind": "liveness"
+      }
+    },
+    {
+      "name": "etda_th_ial2_1_kiosk_v1.json: data_collection.awaiting_dip_chip",
+      "snapshot": {
+        "available_events": [
+          "CHIP_READ"
+        ],
+        "done": false,
+        "state": "data_collection.awaiting_dip_chip",
+        "status": "active",
+        "tags": [
+          "collection_flow"
+        ]
+      },
+      "step": {
+        "kind": "collect",
+        "actions": [
+          "CHIP_READ"
+        ]
+      },
+      "screen": {
+        "kind": "dipChip"
+      }
+    },
+    {
+      "name": "etda_th_ial2_1_kiosk_v1.json: attest_identity_data_verify",
+      "snapshot": {
+        "available_events": [],
+        "done": false,
+        "state": "attest_identity_data_verify",
+        "status": "active",
+        "tags": [
+          "capability:absent",
+          "blocked_operator"
+        ]
+      },
+      "step": {
+        "kind": "blocked",
+        "actions": []
+      },
+      "screen": {
+        "kind": "blocked"
+      }
+    },
+    {
+      "name": "etda_th_ial2_1_kiosk_v1.json: attest_visual_comparison",
+      "snapshot": {
+        "available_events": [],
+        "done": false,
+        "state": "attest_visual_comparison",
+        "status": "active",
+        "tags": [
+          "capability:absent",
+          "blocked_operator"
+        ]
+      },
+      "step": {
+        "kind": "blocked",
+        "actions": []
+      },
+      "screen": {
+        "kind": "blocked"
+      }
+    },
+    {
+      "name": "etda_th_ial2_2_kiosk_v1.json: attest_card_status",
+      "snapshot": {
+        "available_events": [],
+        "done": false,
+        "state": "attest_card_status",
+        "status": "active",
+        "tags": [
+          "capability:absent",
+          "blocked_operator"
+        ]
+      },
+      "step": {
+        "kind": "blocked",
+        "actions": []
+      },
+      "screen": {
+        "kind": "blocked"
+      }
+    },
+    {
+      "name": "etda_th_ial2_3_kiosk_v1.json: attest_biometric_binding",
+      "snapshot": {
+        "available_events": [],
+        "done": false,
+        "state": "attest_biometric_binding",
+        "status": "active",
+        "tags": [
+          "capability:absent",
+          "blocked_operator"
+        ]
+      },
+      "step": {
+        "kind": "blocked",
+        "actions": []
+      },
+      "screen": {
+        "kind": "blocked"
+      }
+    },
+    {
+      "name": "etda_th_ial3_desk_v1.json: attest_in_person",
+      "snapshot": {
+        "available_events": [],
+        "done": false,
+        "state": "attest_in_person",
+        "status": "active",
+        "tags": [
+          "capability:absent",
+          "blocked_operator"
+        ]
+      },
+      "step": {
+        "kind": "blocked",
+        "actions": []
+      },
+      "screen": {
+        "kind": "blocked"
+      }
+    },
+    {
+      "name": "etda_th_ial3_desk_v1.json: attest_corroborating_source",
+      "snapshot": {
+        "available_events": [],
+        "done": false,
+        "state": "attest_corroborating_source",
+        "status": "active",
+        "tags": [
+          "capability:absent",
+          "blocked_operator"
+        ]
+      },
+      "step": {
+        "kind": "blocked",
+        "actions": []
+      },
+      "screen": {
+        "kind": "blocked"
+      }
+    },
+    {
+      "name": "kyb_thai_v1.json: data_collection.awaiting_details",
+      "snapshot": {
+        "available_events": [
+          "DETAILS_SUBMITTED",
+          "ID_FRONT_CAPTURED"
+        ],
+        "done": false,
+        "state": "data_collection.awaiting_details",
+        "status": "active",
+        "tags": [
+          "collection_flow"
+        ]
+      },
+      "step": {
+        "kind": "collect",
+        "actions": [
+          "DETAILS_SUBMITTED",
+          "ID_FRONT_CAPTURED"
+        ]
+      },
+      "screen": {
+        "kind": "document",
+        "offered": [
+          "thai_id"
+        ]
+      }
+    },
+    {
+      "name": "kyb_thai_v1.json: data_collection.awaiting_id_front",
+      "snapshot": {
+        "available_events": [
+          "ID_FRONT_CAPTURED"
+        ],
+        "done": false,
+        "state": "data_collection.awaiting_id_front",
+        "status": "active",
+        "tags": [
+          "collection_flow"
+        ]
+      },
+      "step": {
+        "kind": "collect",
+        "actions": [
+          "ID_FRONT_CAPTURED"
+        ]
+      },
+      "screen": {
+        "kind": "document",
+        "offered": [
+          "thai_id"
+        ]
+      }
+    },
+    {
+      "name": "kyb_thai_v1.json: data_collection.awaiting_id_back",
+      "snapshot": {
+        "available_events": [
+          "ID_BACK_CAPTURED"
+        ],
+        "done": false,
+        "state": "data_collection.awaiting_id_back",
+        "status": "active",
+        "tags": [
+          "collection_flow"
+        ]
+      },
+      "step": {
+        "kind": "collect",
+        "actions": [
+          "ID_BACK_CAPTURED"
+        ]
+      },
+      "screen": {
+        "kind": "documentBack",
+        "document": "thai_id"
+      }
+    },
+    {
+      "name": "kyb_thai_v1.json: data_collection.awaiting_review",
+      "snapshot": {
+        "available_events": [
+          "REVIEW_CONFIRMED"
+        ],
+        "done": false,
+        "state": "data_collection.awaiting_review",
+        "status": "active",
+        "tags": [
+          "collection_flow"
+        ]
+      },
+      "step": {
+        "kind": "review",
+        "actions": []
+      },
+      "screen": {
+        "kind": "review"
+      }
+    },
+    {
+      "name": "kyb_thai_v1.json: run_dbd_enrichment",
+      "snapshot": {
+        "available_events": [],
+        "done": false,
+        "state": "run_dbd_enrichment",
+        "status": "active",
+        "tags": [
+          "pending_process"
+        ]
+      },
+      "step": {
+        "kind": "review",
+        "actions": []
+      },
+      "screen": {
+        "kind": "checking"
+      }
+    },
+    {
+      "name": "kyb_thai_v1.json: run_business_doc_ocr",
+      "snapshot": {
+        "available_events": [],
+        "done": false,
+        "state": "run_business_doc_ocr",
+        "status": "active",
+        "tags": [
+          "pending_process"
+        ]
+      },
+      "step": {
+        "kind": "review",
+        "actions": []
+      },
+      "screen": {
+        "kind": "checking"
+      }
+    },
+    {
+      "name": "kyb_thai_v1.json: run_passport_ocr",
+      "snapshot": {
+        "available_events": [],
+        "done": false,
+        "state": "run_passport_ocr",
+        "status": "active",
+        "tags": [
+          "pending_process"
+        ]
+      },
+      "step": {
+        "kind": "review",
+        "actions": []
+      },
+      "screen": {
+        "kind": "checking"
+      }
+    },
+    {
+      "name": "kyb_thai_v1.json: run_face_on_live_kyc",
+      "snapshot": {
+        "available_events": [],
+        "done": false,
+        "state": "run_face_on_live_kyc",
+        "status": "active",
+        "tags": [
+          "pending_process"
+        ]
+      },
+      "step": {
+        "kind": "review",
+        "actions": []
+      },
+      "screen": {
+        "kind": "checking"
+      }
+    },
+    {
+      "name": "kyb_thai_v1.json: run_dopa_laser_code",
+      "snapshot": {
+        "available_events": [],
+        "done": false,
+        "state": "run_dopa_laser_code",
+        "status": "active",
+        "tags": [
+          "pending_process"
+        ]
+      },
+      "step": {
+        "kind": "review",
+        "actions": []
+      },
+      "screen": {
+        "kind": "checking"
+      }
+    },
+    {
+      "name": "kyb_thai_v1.json: run_authority_check",
+      "snapshot": {
+        "available_events": [],
+        "done": false,
+        "state": "run_authority_check",
+        "status": "active",
+        "tags": [
+          "pending_process"
+        ]
+      },
+      "step": {
+        "kind": "review",
+        "actions": []
+      },
+      "screen": {
+        "kind": "checking"
+      }
+    },
+    {
+      "name": "kyb_thai_v1.json: risk_scoring",
+      "snapshot": {
+        "available_events": [],
+        "done": false,
+        "state": "risk_scoring",
+        "status": "active",
+        "tags": [
+          "pending_process"
+        ]
+      },
+      "step": {
+        "kind": "review",
+        "actions": []
+      },
+      "screen": {
+        "kind": "checking"
+      }
+    },
+    {
+      "name": "kyb_thai_v1.json: pending_resubmission",
+      "snapshot": {
+        "available_events": [
+          "RESUBMITTED"
+        ],
+        "done": false,
+        "state": "pending_resubmission",
+        "status": "active",
+        "tags": [
+          "revision"
+        ]
+      },
+      "step": {
+        "kind": "review",
+        "actions": []
+      },
+      "screen": {
+        "kind": "review"
+      }
+    },
+    {
+      "name": "kyb_thai_v1.json: auto_reject",
+      "snapshot": {
+        "available_events": [],
+        "done": true,
+        "state": "auto_reject",
+        "status": "completed",
+        "tags": [
+          "rejected"
+        ]
+      },
+      "step": {
+        "kind": "terminal",
+        "actions": [],
+        "outcome": "rejected"
+      },
+      "screen": {
+        "kind": "terminal",
+        "outcome": "rejected"
+      }
+    },
+    {
+      "name": "kyb_thai_v2.json: data_collection.awaiting_key_people",
+      "snapshot": {
+        "available_events": [
+          "KEY_PEOPLE_SUBMITTED"
+        ],
+        "done": false,
+        "state": "data_collection.awaiting_key_people",
+        "status": "active",
+        "tags": [
+          "collection_flow"
+        ]
+      },
+      "step": {
+        "kind": "collect",
+        "actions": [
+          "KEY_PEOPLE_SUBMITTED"
+        ]
+      },
+      "screen": {
+        "kind": "keyPeople"
+      }
+    },
+    {
+      "name": "kyb_thai_v2.json: run_authority_check",
+      "snapshot": {
+        "available_events": [
+          "KEY_PEOPLE_DONE"
+        ],
+        "done": false,
+        "state": "run_authority_check",
+        "status": "active",
+        "tags": [
+          "collection_flow"
+        ]
+      },
+      "step": {
+        "kind": "collect",
+        "actions": [
+          "KEY_PEOPLE_DONE"
+        ]
+      },
+      "screen": {
+        "kind": "awaitingUsers"
+      }
+    },
+    {
+      "name": "kyc_thai_kiosk_v1.json: run_chip_face_match",
+      "snapshot": {
+        "available_events": [],
+        "done": false,
+        "state": "run_chip_face_match",
+        "status": "active",
+        "tags": [
+          "pending_process"
+        ]
+      },
+      "step": {
+        "kind": "review",
+        "actions": []
+      },
+      "screen": {
+        "kind": "checking"
+      }
+    },
+    {
+      "name": "kyc_thai_kiosk_v1.json: awaiting_liveness_2",
+      "snapshot": {
+        "available_events": [
+          "LIVENESS_DONE"
+        ],
+        "done": false,
+        "state": "awaiting_liveness_2",
+        "status": "active",
+        "tags": [
+          "collection_flow"
+        ]
+      },
+      "step": {
+        "kind": "collect",
+        "actions": [
+          "LIVENESS_DONE"
+        ]
+      },
+      "screen": {
+        "kind": "liveness"
+      }
+    },
+    {
+      "name": "kyc_thai_v1.json: run_self_hosted_face_match",
+      "snapshot": {
+        "available_events": [],
+        "done": false,
+        "state": "run_self_hosted_face_match",
+        "status": "active",
+        "tags": [
+          "pending_process"
+        ]
+      },
+      "step": {
+        "kind": "review",
+        "actions": []
+      },
+      "screen": {
+        "kind": "checking"
+      }
+    },
+    {
+      "name": "kyc_thai_v1.json: run_active_liveness",
+      "snapshot": {
+        "available_events": [],
+        "done": false,
+        "state": "run_active_liveness",
+        "status": "active",
+        "tags": [
+          "pending_process"
+        ]
+      },
+      "step": {
+        "kind": "review",
+        "actions": []
+      },
+      "screen": {
+        "kind": "checking"
+      }
+    },
+    {
+      "name": "kyc_thai_v3.json: awaiting_signature",
+      "snapshot": {
+        "available_events": [
+          "SIGNATURE_SUBMITTED",
+          "SIGNATURE_DECLINED"
+        ],
+        "done": false,
+        "state": "awaiting_signature",
+        "status": "active",
+        "tags": [
+          "collection_flow"
+        ]
+      },
+      "step": {
+        "kind": "collect",
+        "actions": [
+          "SIGNATURE_SUBMITTED",
+          "SIGNATURE_DECLINED"
+        ]
+      },
+      "screen": {
+        "kind": "signature"
+      }
+    },
+    {
+      "name": "kyc_thai_v3.json: run_document_report",
+      "snapshot": {
+        "available_events": [],
+        "done": false,
+        "state": "run_document_report",
+        "status": "active",
+        "tags": [
+          "pending_process"
+        ]
+      },
+      "step": {
+        "kind": "review",
+        "actions": []
+      },
+      "screen": {
+        "kind": "checking"
+      }
+    },
+    {
+      "name": "kyc_thai_v3.json: run_facial_similarity_report",
+      "snapshot": {
+        "available_events": [],
+        "done": false,
+        "state": "run_facial_similarity_report",
+        "status": "active",
+        "tags": [
+          "pending_process"
+        ]
+      },
+      "step": {
+        "kind": "review",
+        "actions": []
+      },
+      "screen": {
+        "kind": "checking"
+      }
+    },
+    {
+      "name": "kyc_thai_v3.json: run_known_faces_report",
+      "snapshot": {
+        "available_events": [],
+        "done": false,
+        "state": "run_known_faces_report",
+        "status": "active",
+        "tags": [
+          "pending_process"
+        ]
+      },
+      "step": {
+        "kind": "review",
+        "actions": []
+      },
+      "screen": {
+        "kind": "checking"
+      }
+    },
+    {
+      "name": "kyc_thai_v3.json: run_device_intelligence_report",
+      "snapshot": {
+        "available_events": [],
+        "done": false,
+        "state": "run_device_intelligence_report",
+        "status": "active",
+        "tags": [
+          "pending_process"
+        ]
+      },
+      "step": {
+        "kind": "review",
+        "actions": []
+      },
+      "screen": {
+        "kind": "checking"
+      }
+    },
+    {
+      "name": "kyc_thai_v3.json: evaluate_idv_results",
+      "snapshot": {
+        "available_events": [],
+        "done": false,
+        "state": "evaluate_idv_results",
+        "status": "active",
+        "tags": [
+          "pending_process"
+        ]
+      },
+      "step": {
+        "kind": "review",
+        "actions": []
+      },
+      "screen": {
+        "kind": "checking"
+      }
+    },
+    {
+      "name": "kyc_thai_v3.json: run_risk_decision",
+      "snapshot": {
+        "available_events": [],
+        "done": false,
+        "state": "run_risk_decision",
+        "status": "active",
+        "tags": [
+          "pending_process"
+        ]
+      },
+      "step": {
+        "kind": "review",
+        "actions": []
+      },
+      "screen": {
+        "kind": "checking"
+      }
+    },
+    {
+      "name": "kyc_thai_v3.json: run_qualified_signature",
+      "snapshot": {
+        "available_events": [],
+        "done": false,
+        "state": "run_qualified_signature",
+        "status": "active",
+        "tags": [
+          "pending_process"
+        ]
+      },
+      "step": {
+        "kind": "review",
+        "actions": []
+      },
+      "screen": {
+        "kind": "checking"
+      }
+    },
+    {
+      "name": "kyc_thai_v4.json: data_collection.awaiting_details",
+      "snapshot": {
+        "available_events": [
+          "DETAILS_SUBMITTED"
+        ],
+        "done": false,
+        "state": "data_collection.awaiting_details",
+        "status": "active",
+        "tags": [
+          "collection_flow"
+        ]
+      },
+      "step": {
+        "kind": "collect",
+        "actions": [
+          "DETAILS_SUBMITTED"
+        ]
+      },
+      "screen": {
+        "kind": "details"
+      }
+    },
+    {
+      "name": "kyc_thai_v4.json: data_collection.awaiting_phone",
+      "snapshot": {
+        "available_events": [
+          "PHONE_VERIFIED"
+        ],
+        "done": false,
+        "state": "data_collection.awaiting_phone",
+        "status": "active",
+        "tags": [
+          "collection_flow"
+        ]
+      },
+      "step": {
+        "kind": "collect",
+        "actions": [
+          "PHONE_VERIFIED"
+        ]
+      },
+      "screen": {
+        "kind": "phone"
+      }
+    },
+    {
+      "name": "kyc_thai_v4.json: data_collection.awaiting_document",
+      "snapshot": {
+        "available_events": [
+          "ID_FRONT_CAPTURED",
+          "DRIVING_LICENSE_FRONT_CAPTURED",
+          "PASSPORT_CAPTURED"
+        ],
+        "done": false,
+        "state": "data_collection.awaiting_document",
+        "status": "active",
+        "tags": [
+          "collection_flow"
+        ]
+      },
+      "step": {
+        "kind": "collect",
+        "actions": [
+          "ID_FRONT_CAPTURED",
+          "DRIVING_LICENSE_FRONT_CAPTURED",
+          "PASSPORT_CAPTURED"
+        ]
+      },
+      "screen": {
+        "kind": "document",
+        "offered": [
+          "thai_id",
+          "driving_license",
+          "passport"
+        ]
+      }
+    },
+    {
+      "name": "kyc_thai_v4.json: data_collection.awaiting_driving_license_back",
+      "snapshot": {
+        "available_events": [
+          "DRIVING_LICENSE_BACK_CAPTURED"
+        ],
+        "done": false,
+        "state": "data_collection.awaiting_driving_license_back",
+        "status": "active",
+        "tags": [
+          "collection_flow"
+        ]
+      },
+      "step": {
+        "kind": "collect",
+        "actions": [
+          "DRIVING_LICENSE_BACK_CAPTURED"
+        ]
+      },
+      "screen": {
+        "kind": "documentBack",
+        "document": "driving_license"
+      }
+    },
+    {
+      "name": "kyc_thai_v4.json: run_aml_screening",
+      "snapshot": {
+        "available_events": [],
+        "done": false,
+        "state": "run_aml_screening",
+        "status": "active",
+        "tags": [
+          "pending_process"
+        ]
+      },
+      "step": {
+        "kind": "review",
+        "actions": []
+      },
+      "screen": {
+        "kind": "checking"
+      }
+    },
+    {
+      "name": "linear_demo.json: data_collection",
+      "snapshot": {
+        "available_events": [
+          "SUBMIT"
+        ],
+        "done": false,
+        "state": "data_collection",
+        "status": "active",
+        "tags": [
+          "collection_flow"
+        ]
+      },
+      "step": {
+        "kind": "collect",
+        "actions": [
+          "SUBMIT"
+        ]
+      },
+      "screen": {
+        "kind": "actions",
+        "actions": [
+          "SUBMIT"
+        ]
+      }
+    },
+    {
+      "name": "onb_th_kyc_thai_id: consent",
+      "snapshot": {
+        "available_events": [
+          "CONSENT_GIVEN"
+        ],
+        "done": false,
+        "state": "consent",
+        "status": "active",
+        "tags": [
+          "collection_flow"
+        ]
+      },
+      "step": {
+        "kind": "collect",
+        "actions": [
+          "CONSENT_GIVEN"
+        ]
+      },
+      "screen": {
+        "kind": "consent"
+      }
+    },
+    {
+      "name": "onb_th_kyc_thai_id: id_front",
+      "snapshot": {
+        "available_events": [
+          "ID_FRONT_CAPTURED"
+        ],
+        "done": false,
+        "state": "id_front",
+        "status": "active",
+        "tags": [
+          "collection_flow"
+        ]
+      },
+      "step": {
+        "kind": "collect",
+        "actions": [
+          "ID_FRONT_CAPTURED"
+        ]
+      },
+      "screen": {
+        "kind": "document",
+        "offered": [
+          "thai_id"
+        ]
+      }
+    },
+    {
+      "name": "onb_th_kyc_thai_id: id_back",
+      "snapshot": {
+        "available_events": [
+          "ID_BACK_CAPTURED"
+        ],
+        "done": false,
+        "state": "id_back",
+        "status": "active",
+        "tags": [
+          "collection_flow"
+        ]
+      },
+      "step": {
+        "kind": "collect",
+        "actions": [
+          "ID_BACK_CAPTURED"
+        ]
+      },
+      "screen": {
+        "kind": "documentBack",
+        "document": "thai_id"
+      }
+    },
+    {
+      "name": "onb_th_kyc_thai_id: liveness",
+      "snapshot": {
+        "available_events": [
+          "LIVENESS_DONE"
+        ],
+        "done": false,
+        "state": "liveness",
+        "status": "active",
+        "tags": [
+          "collection_flow"
+        ]
+      },
+      "step": {
+        "kind": "collect",
+        "actions": [
+          "LIVENESS_DONE"
+        ]
+      },
+      "screen": {
+        "kind": "liveness"
+      }
+    },
+    {
+      "name": "onb_th_kyb_company: awaiting_business_doc",
+      "snapshot": {
+        "available_events": [
+          "BUSINESS_DOC_CAPTURED"
+        ],
+        "done": false,
+        "state": "awaiting_business_doc",
+        "status": "active",
+        "tags": [
+          "collection_flow"
+        ]
+      },
+      "step": {
+        "kind": "collect",
+        "actions": [
+          "BUSINESS_DOC_CAPTURED"
+        ]
+      },
+      "screen": {
+        "kind": "businessDocument"
+      }
+    }
+  ]
+}

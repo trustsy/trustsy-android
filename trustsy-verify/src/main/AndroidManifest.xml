@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.NFC" />
+    <!-- Documents are photographed; liveness records the applicant's face. -->
+    <uses-permission android:name="android.permission.CAMERA" />
+    <!-- Consent requires a fresh position (deployment policy). -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <!-- Optional: a phone without NFC still runs the flow and skips the chip. -->
+    <uses-feature android:name="android.hardware.nfc" android:required="false" />
+    <uses-feature android:name="android.hardware.camera" android:required="false" />
+    <uses-feature android:name="android.hardware.camera.front" android:required="false" />
+    <!-- Optional: only a partner terminal with a USB card reader runs the dip chip. -->
+    <uses-feature android:name="android.hardware.usb.host" android:required="false" />
+
+    <application>
+        <activity
+            android:name="com.trustsy.verify.TrustsyVerifyActivity"
+            android:configChanges="orientation|screenSize|screenLayout|keyboardHidden|smallestScreenSize|uiMode"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Material.Light.NoActionBar" />
+    </application>
+</manifest>
